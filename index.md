@@ -26,7 +26,18 @@ disability, and lived experience into real systems change.
 </div>
 </section>
 
+<section class="topics">
 
+<div class="wrap topics-inner">
+
+<span>Disability Systems</span>
+<span>Caregiving & Invisible Labor</span>
+<span>Inclusive Communications</span>
+<span>Advocacy & Policy Change</span>
+
+</div>
+
+</section>
 <section class="credibility">
 
 <div class="wrap credibility-inner">
