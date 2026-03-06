@@ -9,7 +9,7 @@ title: Home
 
 <div class="wrap hero-inner">
 
-<h1>Where Lived Experience Drives Systems Change</h1>
+<h1><h1>Turning Lived Experience Into Systems Change</h1></h1>
 
 <p class="hero-sub">
 I speak, write, and build strategies that turn caregiving,
