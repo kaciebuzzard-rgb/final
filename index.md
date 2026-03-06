@@ -158,11 +158,66 @@ and integrating lived experience into institutional change.
 
 <section id="books" class="books">
 
-<div class="wrap">
+  <div class="wrap">
 
-<div class="section-head">
+    <div class="section-head">
+      <h2>Books</h2>
+      <p>
+        Kacie writes about caregiving, disability, and the systems families must navigate.
+      </p>
+    </div>
 
-<h2>Books</h2>
+    <div class="books-grid">
+
+      <!-- Book 1 -->
+      <article class="book-card">
+
+        <div class="book-cover">
+          <img src="/assets/img/for-the-love-of-autism.jpg"
+               alt="Cover of For the Love of Autism by Kacie Wielgus Buzzard">
+        </div>
+
+        <div class="book-content">
+
+          <h3>For the Love of Autism</h3>
+
+          <p>
+            A collection of stories and reflections exploring the realities
+            of raising children with complex needs and the communities
+            that support them.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- Book 2 -->
+      <article class="book-card">
+
+        <div class="book-cover">
+          <img src="/assets/img/neurodiversity-workbook.jpg"
+               alt="Cover of Neurodiversity Workbook for Parents by Kacie Wielgus Buzzard">
+        </div>
+
+        <div class="book-content">
+
+          <h3>Neurodiversity Workbook for Parents</h3>
+
+          <p>
+            A practical guide for families navigating diagnoses,
+            advocacy, and the evolving landscape of neurodiversity support.
+          </p>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
 
 <p>
 Kacie writes about caregiving, disability, and the systems families must navigate.
