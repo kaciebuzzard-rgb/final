@@ -2,6 +2,7 @@
 layout: default
 title: Home
 ---
+
 <section class="hero" id="top">
 
 <div class="hero-overlay"></div>
@@ -23,8 +24,6 @@ disability, and lived experience into real systems change.
 </div>
 </section>
 
-</div>
-</section>
 
 <section class="topics">
 
@@ -38,6 +37,8 @@ disability, and lived experience into real systems change.
 </div>
 
 </section>
+
+
 <section class="credibility">
 
 <div class="wrap credibility-inner">
@@ -327,6 +328,36 @@ Messaging that respects disabled lives: accessibility,
 representation, and impact over performative awareness.
 </p>
 </article>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="booking-cta">
+
+<div class="wrap">
+
+<div class="booking-cta-card">
+
+<p class="booking-kicker">Now Booking</p>
+
+<h2>Bring Kacie to Your Next Event</h2>
+
+<p class="booking-text">
+Keynotes, workshops, panels, and conversations on disability systems,
+caregiving, inclusive communications, and turning lived experience into action.
+</p>
+
+<div class="hero-buttons">
+
+<a class="btn" href="mailto:kacie.buzzard@gmail.com">Book a Keynote</a>
+
+<a class="btn btn-dark" href="#speaking">View Topics</a>
 
 </div>
 
