@@ -2,8 +2,6 @@
 
 <div class="wrap topics-inner">
 
-<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-
 <span>Disability Advocacy</span>
 
 <span>Caregiving Systems</span>
