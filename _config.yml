@@ -1,1 +1,39 @@
+title: "Kacie Wielgus (Buzzard)"
+description: "Speaker, writer, and strategist turning lived experience into systems change."
+url: "https://kacies.life"
+baseurl: ""
 
+markdown: kramdown
+theme: null
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: /blog/:title/
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+author:
+  name: "Kacie Wielgus (Buzzard)"
+
+twitter:
+  username: ""
+  card: summary_large_image
+
+social:
+  name: "Kacie Wielgus (Buzzard)"
+  links:
+    - "https://medium.com/@kwbuzzard"
+
+lang: en_US
+timezone: America/New_York
