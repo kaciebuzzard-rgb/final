@@ -154,16 +154,44 @@ systems thinking, and integrating lived experience into institutional change.
 </section>
 
 
-<div class="books-grid">
+<section id="books">
 
-<article class="book-card">
+<div class="wrap">
 
-<div class="book-cover">
-<img src="{{ '/assets/img/for-the-love-of-autism.jpg' | relative_url }}"
-alt="For the Love of Autism book cover">
+<div class="section-header">
+
+<h2>Books</h2>
+
+<p class="section-intro">
+Tools for families and educators — and stories that widen the frame
+on disability, support, and belonging.
+</p>
+
 </div>
 
-<div class="book-meta">
+<div class="books-grid">
+
+<article class="card">
+<h3>For the Love of Autism</h3>
+<p>
+A collection of lived experience, advocacy, and the everyday
+realities of raising a disabled child.
+</p>
+</article>
+
+<article class="card">
+<h3>Neurodiversity Workbook for Parents</h3>
+<p>
+Practical prompts and frameworks to help parents advocate,
+plan, and support their child with clarity.
+</p>
+</article>
+
+</div>
+
+</div>
+
+</section>
 
 <h3>For the Love of Autism</h3>
 
