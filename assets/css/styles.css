@@ -1,1 +1,4 @@
 <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+.hero{
+  background:url('/assets/img/hero.jpg') center/cover no-repeat;
+}
