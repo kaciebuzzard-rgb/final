@@ -335,7 +335,39 @@ padding:34px;
 .muted{
 color:#6b5e55;
 }
+/* =========================
+CREDIBILITY
+========================= */
 
+.credibility{
+background:#f7f1e8;
+padding:36px 0;
+border-top:1px solid rgba(0,0,0,.06);
+border-bottom:1px solid rgba(0,0,0,.06);
+}
+
+.credibility-inner{
+text-align:center;
+}
+
+.credibility-label{
+font-size:13px;
+letter-spacing:.08em;
+text-transform:uppercase;
+color:#6b5e55;
+margin-bottom:16px;
+}
+
+.credibility-logos{
+display:flex;
+justify-content:center;
+gap:36px;
+flex-wrap:wrap;
+font-weight:700;
+color:#1e1b18;
+font-size:15px;
+opacity:.8;
+}
 /* =========================
 FOOTER
 ========================= */
