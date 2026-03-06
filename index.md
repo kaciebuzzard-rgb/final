@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+<!-- HERO -->
+
 <section class="hero" id="top">
 
 <div class="hero-overlay"></div>
@@ -12,8 +14,7 @@ title: Home
 <h1>Where Lived Experience Drives Systems Change</h1>
 
 <p class="hero-sub">
-Speaker, writer, and strategist working at the intersection of disability advocacy,
-caregiving systems, and inclusive communications.
+Kacie Wielgus (Buzzard) is a speaker, writer, and strategist working at the intersection of disability advocacy, caregiving systems, and inclusive communications.
 </p>
 
 <div class="hero-buttons">
@@ -29,10 +30,15 @@ Learn More
 </div>
 
 </div>
+
 </section>
 
 
+
+<!-- TOPICS -->
+
 <section class="topics">
+
 <div class="wrap topics-inner">
 
 <span>Disability Advocacy</span>
@@ -43,181 +49,62 @@ Learn More
 <span>Systems Change</span>
 
 </div>
+
 </section>
 
 
-<section id="about" class="about">
+
+<!-- ABOUT -->
+
+<section id="about">
 
 <div class="wrap about-grid">
+
+<div class="about-image">
+
+<img src="/assets/img/kacie-speaks.png"
+alt="Kacie Wielgus Buzzard speaking about disability advocacy and caregiving systems">
+
+</div>
+
 
 <div class="about-text">
 
 <h2>About Kacie</h2>
 
 <p>
-Kacie Wielgus (Buzzard) is a speaker, writer, and strategist working at the
-intersection of disability advocacy, caregiving systems, and inclusive
-communications.
+Kacie Wielgus (Buzzard) is a speaker, writer, and strategist working at the intersection of disability advocacy, caregiving systems, and inclusive communications.
 </p>
 
 <p>
-Drawing on lived experience navigating complex medical and educational
-systems as a parent and advocate, her work explores the hidden labor of
-caregiving, the gaps in institutional systems, and the power of storytelling
-to drive meaningful change.
+With more than 15 years of experience in communications and social media strategy, she has helped global organizations build digital communities, amplify lived experience, and design more inclusive systems.
 </p>
 
 <p>
-Through speaking, writing, and consulting, Kacie helps organizations better
-understand the realities families face when navigating disability,
-healthcare, and education systems.
+Her work explores the realities families face navigating medical complexity, disability systems, and the invisible labor that often goes unseen.
+</p>
+
+<p>
+Kacie is also the co-author of <strong>For the Love of Autism</strong> and the creator of the <strong>Neurodiversity Workbook for Parents</strong>.
 </p>
 
 </div>
 
-
-<div class="about-card">
-
-<h3>Focus Areas</h3>
-
-<ul class="about-list">
-
-<li>Disability Advocacy</li>
-<li>Caregiving Systems</li>
-<li>Inclusive Communications</li>
-<li>Neurodiversity</li>
-<li>Medical Motherhood</li>
-<li>Systems Change</li>
-
-</ul>
-
 </div>
 
-</div>
 </section>
 
 
-<section id="services">
+
+<!-- BOOKS -->
+
+<section id="books" class="books">
 
 <div class="wrap">
 
 <div class="section-head">
 
-<h2>Services</h2>
-
-<p>
-Kacie works with organizations, conferences, and advocacy groups to bring
-lived experience into conversations about policy, communications, and
-systems change.
-</p>
-
-</div>
-
-<div class="services-grid">
-
-<div class="card">
-
-<h3>Keynote Speaking</h3>
-
-<p>
-Engaging keynote presentations that bring visibility to caregiving systems,
-disability advocacy, and the hidden labor many families navigate daily.
-</p>
-
-</div>
-
-
-<div class="card">
-
-<h3>Workshops</h3>
-
-<p>
-Interactive workshops helping organizations understand accessibility,
-inclusive storytelling, and lived experience within policy and communications.
-</p>
-
-</div>
-
-
-<div class="card">
-
-<h3>Strategic Consulting</h3>
-
-<p>
-Advising organizations on communications strategy, disability inclusion,
-and integrating lived experience into institutional change.
-</p>
-
-</div>
-
-</div>
-
-</div>
-</section>
-
-
-<section id="books" class="books">
-
-  <div class="wrap">
-
-    <div class="section-head">
-      <h2>Books</h2>
-      <p>
-        Kacie writes about caregiving, disability, and the systems families must navigate.
-      </p>
-    </div>
-
-    <div class="books-grid">
-
-      <!-- Book 1 -->
-      <article class="book-card">
-
-        <div class="book-cover">
-          <img src="/assets/img/for-the-love-of-autism.jpg"
-               alt="Cover of For the Love of Autism by Kacie Wielgus Buzzard">
-        </div>
-
-        <div class="book-content">
-
-          <h3>For the Love of Autism</h3>
-
-          <p>
-            A collection of stories and reflections exploring the realities
-            of raising children with complex needs and the communities
-            that support them.
-          </p>
-
-        </div>
-
-      </article>
-
-
-      <!-- Book 2 -->
-      <article class="book-card">
-
-        <div class="book-cover">
-          <img src="/assets/img/neurodiversity-workbook.jpg"
-               alt="Cover of Neurodiversity Workbook for Parents by Kacie Wielgus Buzzard">
-        </div>
-
-        <div class="book-content">
-
-          <h3>Neurodiversity Workbook for Parents</h3>
-
-          <p>
-            A practical guide for families navigating diagnoses,
-            advocacy, and the evolving landscape of neurodiversity support.
-          </p>
-
-        </div>
-
-      </article>
-
-    </div>
-
-  </div>
-
-</section>
+<h2>Books</h2>
 
 <p>
 Kacie writes about caregiving, disability, and the systems families must navigate.
@@ -225,48 +112,69 @@ Kacie writes about caregiving, disability, and the systems families must navigat
 
 </div>
 
+
 <div class="books-grid">
 
-<div class="book-card">
+<!-- BOOK 1 -->
 
-<div class="book-cover"></div>
+<article class="book-card">
 
-<div class="book-meta">
+<div class="book-cover">
+
+<img src="/assets/img/for-the-love-of-autism.png"
+alt="Cover of For the Love of Autism by Kacie Wielgus Buzzard">
+
+</div>
+
+
+<div class="book-content">
 
 <h3>For the Love of Autism</h3>
 
 <p>
-A collection of stories and reflections exploring the realities of raising
-children with complex needs and the communities that support them.
+A collection of stories and reflections exploring the realities of raising children with complex needs and the communities that support them.
 </p>
 
 </div>
 
+</article>
+
+
+
+<!-- BOOK 2 -->
+
+<article class="book-card">
+
+<div class="book-cover">
+
+<img src="/assets/img/neurodiversity-workbook-for-parents.webp"
+alt="Cover of Neurodiversity Workbook for Parents by Kacie Wielgus Buzzard">
+
 </div>
 
 
-<div class="book-card">
-
-<div class="book-cover"></div>
-
-<div class="book-meta">
+<div class="book-content">
 
 <h3>Neurodiversity Workbook for Parents</h3>
 
 <p>
-A practical guide for families navigating diagnoses, advocacy,
-and the evolving landscape of neurodiversity support.
+A practical guide for families navigating diagnoses, advocacy, and the evolving landscape of neurodiversity support.
 </p>
 
 </div>
 
-</div>
+</article>
+
 
 </div>
 
 </div>
+
 </section>
 
+
+
+<!-- WRITING -->
 
 <section id="writing">
 
@@ -277,157 +185,127 @@ and the evolving landscape of neurodiversity support.
 <h2>Writing</h2>
 
 <p>
-Essays exploring caregiving, grief, resilience, and the invisible
-structures shaping family life.
+Essays and reflections exploring caregiving, disability, and the systems families must navigate.
 </p>
 
 </div>
 
+
 <div class="writing-grid">
 
-<div class="card writing-card">
+
+<article class="writing-card">
+
+<a href="https://medium.com/@kwbuzzard"
+class="writing-link">
+
+<div class="writing-image">
+
+<img src="/assets/img/2.png"
+alt="Essay about caregiving and invisible labor">
+
+</div>
 
 <div class="writing-content">
 
 <h3>The Invisible Tax of Caregiving</h3>
 
 <p>
-Caregivers pay an unseen cost navigating systems that were never designed
-for them.
+Caregivers pay a price no system tracks — time, sleep, and emotional labor that never appears on a bill.
 </p>
 
-<a class="writing-cta" href="#">
-Read Essay →
+<span class="writing-cta">Read the Essay →</span>
+
+</div>
+
 </a>
 
-</div>
+</article>
+
+
+
+<article class="writing-card">
+
+<a href="https://medium.com/@kwbuzzard"
+class="writing-link">
+
+<div class="writing-image">
+
+<img src="/assets/img/3.jpg"
+alt="Essay about systems families navigate">
 
 </div>
-
-
-<div class="card writing-card">
 
 <div class="writing-content">
 
-<h3>The Hospital Hallway Where Time Collapses</h3>
+<h3>The Systems Families Navigate</h3>
 
 <p>
-Reflections on waiting, uncertainty, and the quiet moments that reshape families.
+What it means to raise children in systems designed without their needs in mind.
 </p>
 
-<a class="writing-cta" href="#">
-Read Essay →
+<span class="writing-cta">Read the Essay →</span>
+
+</div>
+
 </a>
 
-</div>
+</article>
+
+
+
+<article class="writing-card">
+
+<a href="https://medium.com/@kwbuzzard"
+class="writing-link">
+
+<div class="writing-image">
+
+<img src="/assets/img/6a.jpg"
+alt="Essay about caregiving and advocacy">
 
 </div>
-
-
-<div class="card writing-card">
 
 <div class="writing-content">
 
-<h3>The Invisible Labor of Medical Motherhood</h3>
+<h3>Caregiving Is Systems Work</h3>
 
 <p>
-Exploring the emotional, logistical, and systemic work hidden behind caregiving.
+Behind every medical chart is a family learning how to navigate institutions, policies, and power.
 </p>
 
-<a class="writing-cta" href="#">
-Read Essay →
+<span class="writing-cta">Read the Essay →</span>
+
+</div>
+
 </a>
 
-</div>
+</article>
+
 
 </div>
 
 </div>
 
-</div>
 </section>
 
 
-<section id="speaking" class="speaking">
 
-<div class="wrap">
+<!-- CONTACT -->
 
-<div class="section-head">
+<section id="contact">
 
-<h2>Speaking</h2>
+<div class="wrap contact-inner">
 
-<p>
-Kacie speaks about caregiving systems, disability advocacy,
-and the lived experience institutions often overlook.
-</p>
-
-</div>
-
-<div class="speaking-grid">
-
-<div class="speaking-card">
-
-<h3>Popular Keynotes</h3>
-
-<ul>
-
-<li>The Invisible Labor of Caregiving</li>
-<li>Medical Motherhood</li>
-<li>Systems Not Built for Families</li>
-<li>Storytelling as Advocacy</li>
-
-</ul>
-
-</div>
-
-
-<div class="speaking-card">
-
-<h3>Book Kacie</h3>
+<h2>Let’s Work Together</h2>
 
 <p>
-Interested in bringing Kacie to your conference,
-organization, or event?
+Kacie speaks, writes, and advises organizations seeking to build more inclusive systems for families navigating disability and medical complexity.
 </p>
 
 <a class="btn" href="mailto:kacie.buzzard@gmail.com">
-Book a Keynote
+Contact Kacie
 </a>
-
-</div>
-
-</div>
-
-</div>
-</section>
-
-
-<section id="contact" class="contact">
-
-<div class="wrap">
-
-<div class="contact-box">
-
-<h2>Contact</h2>
-
-<p>
-For speaking inquiries, collaborations, or media requests,
-please reach out.
-</p>
-
-<div class="contact-actions">
-
-<a class="btn" href="mailto:kacie.buzzard@gmail.com">
-Email Kacie
-</a>
-
-<a class="btn btn-ghost" href="https://medium.com/@kwbuzzard" target="_blank">
-Read on Medium
-</a>
-
-</div>
-
-</div>
 
 </div>
 
