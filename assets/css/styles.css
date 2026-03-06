@@ -42,88 +42,17 @@ section{
 padding:80px 0;
 }
 
-/* =========================
-   HEADER
-========================= */
-
-.site-header{
-position:sticky;
-top:0;
-z-index:50;
-background:#ffffff;
-border-bottom:1px solid rgba(0,0,0,.08);
-}
-
-.site-nav{
-display:flex;
-align-items:center;
-justify-content:space-between;
-padding:18px 0;
-}
-
-.nav-logo{
-font-weight:800;
-font-size:18px;
-}
-
-.nav-links{
-display:flex;
-gap:22px;
-font-weight:600;
-font-size:14px;
-}
-
-.nav-links a:hover{
-color:#c55a3a;
-}
-
-/* =========================
-   HERO
-========================= */
-
 .hero{
 position:relative;
-padding:160px 0 100px;
+padding:160px 0 110px;
 min-height:80vh;
 display:flex;
-align-items:flex-end;
+align-items:center;
 
+/* key change: move image right so your face is visible */
 background:
-url('/assets/img/hero.jpg') center/cover no-repeat;
+url('/assets/img/hero.jpg') right center / cover no-repeat;
 }
-
-.hero-overlay{
-position:absolute;
-inset:0;
-background:rgba(20,16,14,.45);
-}
-
-.hero-inner{
-position:relative;
-z-index:1;
-max-width:720px;
-color:#fff;
-}
-
-.hero h1{
-font-size:clamp(36px,5vw,58px);
-font-weight:800;
-line-height:1.1;
-margin-bottom:20px;
-}
-
-.hero-sub{
-font-size:18px;
-max-width:520px;
-margin-bottom:30px;
-}
-
-.hero-buttons{
-display:flex;
-gap:14px;
-flex-wrap:wrap;
-}
-
 /* =========================
    BUTTONS
 ========================= */
