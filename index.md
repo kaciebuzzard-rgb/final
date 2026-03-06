@@ -2,14 +2,13 @@
 layout: default
 title: Home
 ---
-
 <section class="hero" id="top">
 
 <div class="hero-overlay"></div>
 
 <div class="wrap hero-inner">
 
-<h1><h1>Turning Lived Experience Into Systems Change</h1></h1>
+<h1>Turning Lived Experience Into Systems Change</h1>
 
 <p class="hero-sub">
 I speak, write, and build strategies that turn caregiving,
@@ -20,6 +19,9 @@ disability, and lived experience into real systems change.
 <a class="btn" href="mailto:kacie.buzzard@gmail.com">Book a Keynote</a>
 <a class="btn btn-ghost" href="#about">Learn More</a>
 </div>
+
+</div>
+</section>
 
 </div>
 </section>
