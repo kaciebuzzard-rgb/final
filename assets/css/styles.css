@@ -2,5 +2,4 @@
 .hero{
   background:url('/assets/img/hero.jpg') center/cover no-repeat;
 }
-<img src="{{ '/assets/img/kacie-speaks.png' | relative_url }}"
-alt="Kacie Wielgus speaking on stage">
+
