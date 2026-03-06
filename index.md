@@ -96,6 +96,71 @@ Kacie is also the co-author of <strong>For the Love of Autism</strong> and the c
 
 
 
+<!-- SERVICES -->
+
+<section id="services">
+
+<div class="wrap">
+
+<div class="section-head">
+
+<h2>Services</h2>
+
+<p>
+Keynotes, workshops, and advisory work for organizations ready
+to move from awareness to systems change.
+</p>
+
+</div>
+
+
+<div class="features">
+
+<article class="card">
+
+<h3>Keynotes</h3>
+
+<p>
+Powerful keynote presentations connecting lived experience,
+policy, and systems design to challenge how organizations
+think about disability and caregiving.
+</p>
+
+</article>
+
+
+<article class="card">
+
+<h3>Workshops</h3>
+
+<p>
+Interactive sessions helping teams understand accessibility,
+inclusive communication, and how systems impact families
+navigating disability and medical complexity.
+</p>
+
+</article>
+
+
+<article class="card">
+
+<h3>Advisory</h3>
+
+<p>
+Strategic guidance for organizations working to build
+more inclusive programs, policies, and communications.
+</p>
+
+</article>
+
+</div>
+
+</div>
+
+</section>
+
+
+
 <!-- BOOKS -->
 
 <section id="books" class="books">
@@ -196,8 +261,7 @@ Essays and reflections exploring caregiving, disability, and the systems familie
 
 <article class="writing-card">
 
-<a href="https://medium.com/@kwbuzzard"
-class="writing-link">
+<a href="https://medium.com/@kwbuzzard" class="writing-link">
 
 <div class="writing-image">
 
@@ -226,8 +290,7 @@ Caregivers pay a price no system tracks — time, sleep, and emotional labor tha
 
 <article class="writing-card">
 
-<a href="https://medium.com/@kwbuzzard"
-class="writing-link">
+<a href="https://medium.com/@kwbuzzard" class="writing-link">
 
 <div class="writing-image">
 
@@ -256,8 +319,7 @@ What it means to raise children in systems designed without their needs in mind.
 
 <article class="writing-card">
 
-<a href="https://medium.com/@kwbuzzard"
-class="writing-link">
+<a href="https://medium.com/@kwbuzzard" class="writing-link">
 
 <div class="writing-image">
 
