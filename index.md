@@ -165,87 +165,62 @@ permalink: /
 
 
 
-<!-- BOOKS -->
-<section class="books" id="books">
+/* =========================================================
+BOOKS
+========================================================= */
 
-  <div class="wrap">
+.books{
+  padding:96px 0;
+}
 
-    <div class="section-head">
-      <h2>Books & Projects</h2>
+.books-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:32px;
+}
 
-      <p>
-        Writing and advocacy projects centered on caregiving,
-        disability, neurodiversity, and the systems families navigate.
-      </p>
-    </div>
+.book-card{
+  background:#f7f1e8;
+  padding:36px;
+  border-radius:16px;
+  border:1px solid rgba(30,27,24,.08);
+  transition:.25s;
+}
 
-    <div class="books-grid">
+.book-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 18px 40px rgba(0,0,0,.1);
+}
 
-      <div class="book-card">
+.book-label{
+  font-size:.75rem;
+  font-weight:700;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:#c55a3a;
+  margin-bottom:10px;
+}
 
-        <p class="book-label">Memoir</p>
+.book-card h3{
+  margin-bottom:10px;
+  font-size:1.35rem;
+}
 
-        <h3>The Waiting Rooms of My Life</h3>
+.book-card p{
+  color:#5f544d;
+  line-height:1.7;
+  margin-bottom:14px;
+}
 
-        <p>
-          An in-progress memoir exploring caregiving, invisible labor,
-          disability, and the long afterlife of crisis.
-        </p>
+/* mobile */
 
-        <a class="writing-link" href="/memoir/">
-          Read excerpts →
-        </a>
+@media (max-width:900px){
 
-      </div>
+  .books-grid{
+    grid-template-columns:1fr;
+  }
 
-
-      <div class="book-card">
-
-        <p class="book-label">Book</p>
-
-        <h3>For the Love of Autism</h3>
-
-        <p>
-          A book rooted in advocacy, lived experience, and the realities
-          families face while navigating autism and care systems.
-        </p>
-
-      </div>
-
-
-      <div class="book-card">
-
-        <p class="book-label">Workbook</p>
-
-        <h3>Neurodiversity Workbook for Parents</h3>
-
-        <p>
-          A practical guide designed to support parents navigating
-          neurodiversity, advocacy, and the emotional realities
-          of raising children in complex systems.
-        </p>
-
-      </div>
-
-
-      <div class="book-card">
-
-        <p class="book-label">Essays</p>
-
-        <h3>Advocacy & Systems Writing</h3>
-
-        <p>
-          Essays and commentary exploring disability advocacy,
-          caregiving systems, invisible labor, and lived experience.
-        </p>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
+}
 
 <!-- WRITING -->
 <section class="writing" id="writing">
