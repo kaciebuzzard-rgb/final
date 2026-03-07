@@ -1,5 +1,5 @@
 /* =========================================================
-   GLOBAL RESET
+GLOBAL RESET
 ========================================================= */
 
 *{
@@ -57,6 +57,7 @@ top:0;
 z-index:1000;
 background:rgba(255,255,255,.92);
 backdrop-filter:blur(10px);
+-webkit-backdrop-filter:blur(10px);
 border-bottom:1px solid rgba(30,27,24,.08);
 }
 
@@ -412,11 +413,7 @@ MEMOIR PAGE
 
 .memoir-hero{
 position:relative;
-
-background:
-url('/assets/img/memoir-hero.png')
-center / cover no-repeat;
-
+background:url('/assets/img/memoir-hero.png') center / cover no-repeat;
 padding:180px 0 120px;
 color:#fff;
 }
