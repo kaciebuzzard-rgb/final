@@ -153,63 +153,82 @@ permalink: /
 
 
 
-/* =========================================================
-BOOKS
-========================================================= */
+<section class="books" id="books">
 
-.books{
-  padding:96px 0;
-}
+  <div class="wrap">
 
-.books-grid{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:32px;
-}
+    <div class="section-head">
+      <h2>Books</h2>
 
-.book-card{
-  background:#f7f1e8;
-  padding:36px;
-  border-radius:16px;
-  border:1px solid rgba(30,27,24,.08);
-  transition:.25s;
-}
+      <p>
+        Projects rooted in advocacy, lived experience, and practical tools for families.
+      </p>
+    </div>
 
-.book-card:hover{
-  transform:translateY(-4px);
-  box-shadow:0 18px 40px rgba(0,0,0,.1);
-}
+    <div class="books-grid">
 
-.book-label{
-  font-size:.75rem;
-  font-weight:700;
-  letter-spacing:.12em;
-  text-transform:uppercase;
-  color:#c55a3a;
-  margin-bottom:10px;
-}
+      <!-- BOOK 1 -->
 
-.book-card h3{
-  margin-bottom:10px;
-  font-size:1.35rem;
-}
+      <div class="book-card">
 
-.book-card p{
-  color:#5f544d;
-  line-height:1.7;
-  margin-bottom:14px;
-}
+        <img
+          src="/assets/img/love-of-autism.jpg"
+          alt="For the Love of Autism book cover"
+          class="book-image">
 
-/* mobile */
+        <p class="book-label">Book</p>
 
-@media (max-width:900px){
+        <h3>For the Love of Autism</h3>
 
-  .books-grid{
-    grid-template-columns:1fr;
-  }
+        <p>
+          Stories and insights centered on families, disability identity,
+          and building more supportive systems.
+        </p>
 
-}
+        <a
+          class="btn"
+          href="PASTE_AMAZON_LINK"
+          target="_blank"
+          rel="noopener">
+          View on Amazon
+        </a>
 
+      </div>
+
+
+      <!-- BOOK 2 -->
+
+      <div class="book-card">
+
+        <img
+          src="/assets/img/neurodiversity-workbook.jpg"
+          alt="Neurodiversity Workbook for Parents cover"
+          class="book-image">
+
+        <p class="book-label">Workbook</p>
+
+        <h3>Neurodiversity Workbook for Parents</h3>
+
+        <p>
+          A practical workbook designed to help parents navigate
+          neurodiversity, advocacy, and real-life support strategies.
+        </p>
+
+        <a
+          class="btn"
+          href="PASTE_AMAZON_LINK"
+          target="_blank"
+          rel="noopener">
+          View on Amazon
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 <!-- WRITING -->
 <section class="writing" id="writing">
 
