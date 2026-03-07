@@ -22,7 +22,7 @@ permalink: /
 
     <div class="hero-buttons">
       <a class="btn" href="#speaking">Book a Keynote</a>
-      <a class="btn btn-ghost" href="/memoir/">Read the Memoir</a>
+      <a class="btn btn-ghost" href="{{ '/memoir/' | relative_url }}">Read the Memoir</a>
     </div>
 
   </div>
@@ -52,8 +52,9 @@ permalink: /
 
     <div class="about-image">
       <img
-        src="/assets/img/kacie-speaks.png"
-        alt="Kacie Wielgus Buzzard speaking about caregiving systems and disability advocacy">
+        src="{{ '/assets/img/kacie-about.jpg' | relative_url }}"
+        alt="Kacie Wielgus Buzzard smiling in a denim jacket"
+        class="about-photo">
     </div>
 
     <div class="about-text">
@@ -181,7 +182,7 @@ permalink: /
 
     <div class="writing-grid">
 
-      <a href="/memoir/" class="writing-card writing-feature">
+      <a href="{{ '/memoir/' | relative_url }}" class="writing-card writing-feature">
         <div class="writing-content">
           <p class="writing-label">Memoir in Progress</p>
           <h3>The Waiting Rooms of My Life</h3>
