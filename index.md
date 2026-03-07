@@ -116,9 +116,10 @@ permalink: /
   </div>
 </section>
 
-<!-- BOOKS -->
 <section class="books" id="books">
+
   <div class="wrap">
+
     <div class="section-head">
       <p class="section-kicker">Publications</p>
       <h2>Books</h2>
@@ -128,9 +129,11 @@ permalink: /
     </div>
 
     <div class="books-grid">
+
       <article class="book-card">
+
         <img
-          src="/assets/img/love-of-autism.jpg"
+          src="{{ '/assets/img/for-the-love-of-autism.png' | relative_url }}"
           alt="For the Love of Autism book cover"
           class="book-image">
 
@@ -149,11 +152,13 @@ permalink: /
           rel="noopener">
           View on Amazon
         </a>
+
       </article>
 
       <article class="book-card">
+
         <img
-          src="/assets/img/neurodiversity-workbook.jpg"
+          src="{{ '/assets/img/neurodiversity-workbook.png' | relative_url }}"
           alt="Neurodiversity Workbook for Parents cover"
           class="book-image">
 
@@ -172,9 +177,13 @@ permalink: /
           rel="noopener">
           View on Amazon
         </a>
+
       </article>
+
     </div>
+
   </div>
+
 </section>
 
 <!-- WRITING -->
