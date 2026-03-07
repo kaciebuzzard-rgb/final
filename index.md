@@ -171,26 +171,25 @@ permalink: /
   <div class="wrap">
 
     <div class="section-head">
-
       <h2>Books & Projects</h2>
 
       <p>
-        Current writing projects exploring caregiving, disability,
-        and systems families navigate every day.
+        Writing and advocacy projects centered on caregiving,
+        disability, neurodiversity, and the systems families navigate.
       </p>
-
     </div>
-
 
     <div class="books-grid">
 
       <div class="book-card">
 
+        <p class="book-label">Memoir</p>
+
         <h3>The Waiting Rooms of My Life</h3>
 
         <p>
-          An in-progress memoir about caregiving,
-          invisible labor, and the long afterlife of crisis.
+          An in-progress memoir exploring caregiving, invisible labor,
+          disability, and the long afterlife of crisis.
         </p>
 
         <a class="writing-link" href="/memoir/">
@@ -202,11 +201,42 @@ permalink: /
 
       <div class="book-card">
 
-        <h3>Advocacy & Systems</h3>
+        <p class="book-label">Book</p>
+
+        <h3>For the Love of Autism</h3>
 
         <p>
-          Essays and commentary on disability advocacy,
-          caregiving systems, and lived experience.
+          A book rooted in advocacy, lived experience, and the realities
+          families face while navigating autism and care systems.
+        </p>
+
+      </div>
+
+
+      <div class="book-card">
+
+        <p class="book-label">Workbook</p>
+
+        <h3>Neurodiversity Workbook for Parents</h3>
+
+        <p>
+          A practical guide designed to support parents navigating
+          neurodiversity, advocacy, and the emotional realities
+          of raising children in complex systems.
+        </p>
+
+      </div>
+
+
+      <div class="book-card">
+
+        <p class="book-label">Essays</p>
+
+        <h3>Advocacy & Systems Writing</h3>
+
+        <p>
+          Essays and commentary exploring disability advocacy,
+          caregiving systems, invisible labor, and lived experience.
         </p>
 
       </div>
@@ -216,8 +246,6 @@ permalink: /
   </div>
 
 </section>
-
-
 
 <!-- WRITING -->
 <section class="writing" id="writing">
