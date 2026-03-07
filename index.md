@@ -60,7 +60,10 @@ permalink: /
     <div class="about-image">
 
       <img
-        src="/assets/img/about-kacie.jpeg"
+        <img
+  src="/assets/img/about.jpeg"
+  alt="Portrait of Kacie Wielgus Buzzard"
+  class="about-photo">
         alt="Portrait of Kacie Wielgus Buzzard"
         class="about-photo">
 
