@@ -23,8 +23,8 @@ The Waiting Rooms of My Life
 <p class="memoir-intro">
 The Waiting Rooms of My Life is an in-progress memoir about caregiving,
 disability, invisible labor, and the long afterlife of crisis.
-These excerpts explore what love asks of families navigating
-complex systems of care — and what it costs to endure inside them.
+These excerpts explore what love asks of families navigating complex
+systems of care — and what it costs to endure inside them.
 </p>
 
 <div class="memoir-jump-links">
@@ -55,7 +55,16 @@ The Invisible Tax of Invisible Labor
 
 <div class="wrap memoir-wrap">
 
+
+
+<!-- EXCERPT 1 -->
+
 <article class="memoir-entry" id="through-line">
+
+<img
+src="/assets/img/memoir-chair.jpg"
+alt="Empty vinyl chair in hospital waiting room"
+class="memoir-image">
 
 <p class="memoir-label">
 Excerpt One
@@ -67,9 +76,7 @@ The Through-Line
 
 <div class="memoir-copy">
 
-<p>
-There is a through-line in my life.
-</p>
+<p>There is a through-line in my life.</p>
 
 <p>
 A small vinyl chair in a PICU room.
@@ -84,17 +91,11 @@ Advocacy. Logistics. Fighting systems.
 Staying awake when everyone else slept.
 </p>
 
-<p>
-Love looked like endurance.
-</p>
+<p>Love looked like endurance.</p>
 
-<p>
-With Jim, love looked different.
-</p>
+<p>With Jim, love looked different.</p>
 
-<p>
-It looked like steadiness.
-</p>
+<p>It looked like steadiness.</p>
 
 <p>
 It looked like someone saying,
@@ -106,15 +107,14 @@ noticing when I was fading.
 </p>
 
 <p>
-It looked like a man who wasn’t intimidated
-by my past.
+It looked like a man who wasn’t intimidated by my past.
 Not threatened by my competence.
 Not unsettled by my complexity.
 </p>
 
 <p>
-It looked like someone who didn’t need me
-to shrink in order to stay.
+It looked like someone who didn’t need me to shrink
+in order to stay.
 </p>
 
 <p>
@@ -122,9 +122,7 @@ In the space of a few short months,
 we hadn’t just fallen in love.
 </p>
 
-<p>
-We had built something.
-</p>
+<p>We had built something.</p>
 
 <p>
 A partnership.<br>
@@ -137,11 +135,19 @@ A home I could feel myself resting inside.
 </article>
 
 
+
 <div class="memoir-divider"></div>
 
 
 
+<!-- EXCERPT 2 -->
+
 <article class="memoir-entry" id="hospital-hallway">
+
+<img
+src="/assets/img/memoir-hallway.jpg"
+alt="Hospital hallway with soft lighting"
+class="memoir-image">
 
 <p class="memoir-label">
 Excerpt Two
@@ -154,8 +160,7 @@ The Hospital Hallway Where Time Collapses
 <div class="memoir-copy">
 
 <p>
-There are hospital hallways that live in the body
-long after you leave them.
+There are hospital hallways that live in the body long after you leave them.
 </p>
 
 <p>
@@ -190,16 +195,36 @@ A single sentence from a doctor
 can split the world into before and after.
 </p>
 
+<p>
+You learn to live in fragments there.
+Test results.
+Shift changes.
+Intake questions.
+Medication schedules.
+</p>
+
+<p>
+The unbearable choreography of hope and dread.
+</p>
+
 </div>
 
 </article>
+
 
 
 <div class="memoir-divider"></div>
 
 
 
+<!-- EXCERPT 3 -->
+
 <article class="memoir-entry" id="invisible-tax">
+
+<img
+src="/assets/img/memoir-paperwork.jpg"
+alt="Desk with paperwork and laptop representing caregiving administrative work"
+class="memoir-image">
 
 <p class="memoir-label">
 Excerpt Three
@@ -237,18 +262,12 @@ They do not see what it cost you to get there.
 <p>
 That is the invisible tax of invisible labor —
 not just the work itself,
-but the way it disappears while still extracting
-from you.
+but the way it disappears while still extracting from you.
 </p>
 
 <p>
-Time.
-Attention.
-Earnings.
-Sleep.
-Credibility.
-Marriage.
-Identity.
+Time. Attention. Earnings. Sleep.
+Credibility. Marriage. Identity.
 </p>
 
 <p>
@@ -272,6 +291,8 @@ with consequences for failure that are too high.
 
 </article>
 
+
+
 </div>
 
 </section>
@@ -289,9 +310,8 @@ For editorial, speaking, or podcast inquiries
 </h2>
 
 <p>
-Kacie writes and speaks at the intersection of
-disability advocacy, caregiving systems,
-invisible labor, and lived experience.
+Kacie writes and speaks at the intersection of disability advocacy,
+caregiving systems, invisible labor, and lived experience.
 </p>
 
 <a class="btn" href="mailto:kacie.buzzard@gmail.com">
