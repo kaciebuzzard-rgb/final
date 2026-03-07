@@ -6,47 +6,69 @@ permalink: /
 
 <!-- HERO -->
 <section class="hero" id="top">
+
   <div class="hero-overlay"></div>
 
   <div class="wrap hero-inner">
+
     <h1>Where Lived Experience Drives Systems Change</h1>
 
     <p class="hero-sub">
-      Kacie Wielgus (Buzzard) is a speaker, writer, and strategist working at the intersection
-      of disability advocacy, caregiving systems, and inclusive communications.
+      Kacie Wielgus (Buzzard) is a speaker, writer, and strategist working at the
+      intersection of disability advocacy, caregiving systems, and inclusive communications.
     </p>
 
     <div class="hero-buttons">
-      <a class="btn" href="mailto:kacie.buzzard@gmail.com">Book a Keynote</a>
-      <a class="btn btn-ghost" href="#about">Learn More</a>
+      <a class="btn" href="mailto:kacie.buzzard@gmail.com">
+        Book a Keynote
+      </a>
+
+      <a class="btn btn-ghost" href="#about">
+        Learn More
+      </a>
     </div>
+
   </div>
+
 </section>
+
+
 
 <!-- TOPICS -->
 <section class="topics">
+
   <div class="wrap topics-inner">
+
     <span>Disability Advocacy</span>
     <span>Caregiving Systems</span>
     <span>Invisible Labor</span>
     <span>Inclusive Communications</span>
     <span>Medical Motherhood</span>
     <span>Systems Change</span>
+
   </div>
+
 </section>
+
+
 
 <!-- ABOUT -->
 <section id="about">
+
   <div class="wrap about-grid">
 
     <div class="about-image">
+
       <img
-        src="/assets/img/about-kacie.jpg"
+        src="/assets/img/about-kacie.jpeg"
         alt="Portrait of Kacie Wielgus Buzzard"
         class="about-photo">
+
     </div>
 
+
     <div class="about-text">
+
       <h2>About Kacie</h2>
 
       <p>
@@ -67,159 +89,271 @@ permalink: /
 
       <p>
         Kacie is currently developing her memoir,
-        <em>The Waiting Rooms of My Life</em>, while also speaking and writing on caregiving,
-        disability, and lived experience as systems knowledge.
+        <em>The Waiting Rooms of My Life</em>.
       </p>
+
     </div>
 
   </div>
+
 </section>
+
+
 
 <!-- SERVICES -->
 <section class="services" id="services">
+
   <div class="wrap">
+
     <div class="section-head">
+
       <h2>What I Do</h2>
+
       <p>
-        I help audiences, organizations, and communities better understand caregiving,
-        disability, lived experience, and the systems families are asked to navigate.
+        I help audiences and organizations better understand caregiving,
+        disability, lived experience, and the systems families navigate.
       </p>
+
     </div>
+
 
     <div class="services-grid">
+
       <div class="service-card">
+
         <h3>Speaking</h3>
+
         <p>
-          Keynotes, panels, and conversations on disability advocacy, caregiving systems,
-          invisible labor, and lived experience.
+          Keynotes and conversations on caregiving systems, disability advocacy,
+          and invisible labor.
         </p>
+
       </div>
 
+
       <div class="service-card">
+
         <h3>Writing</h3>
+
         <p>
-          Essays, memoir, commentary, and thought leadership focused on family systems,
-          endurance, and the realities behind care.
+          Essays, memoir, and commentary exploring caregiving,
+          endurance, and family systems.
         </p>
+
       </div>
 
+
       <div class="service-card">
+
         <h3>Strategy</h3>
+
         <p>
-          Communications and storytelling strategy rooted in clarity, inclusion, and a
-          deeper understanding of the people systems are meant to serve.
+          Communications and storytelling strategy rooted in inclusion
+          and lived experience.
         </p>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 
-<!-- BOOKS / MEMOIR -->
+
+
+<!-- BOOKS -->
 <section class="books" id="books">
+
   <div class="wrap">
+
     <div class="section-head">
+
       <h2>Books & Projects</h2>
+
       <p>
-        Current writing projects rooted in caregiving, disability, family systems, and the
-        emotional and structural realities families carry.
+        Current writing projects exploring caregiving, disability,
+        and systems families navigate every day.
       </p>
+
     </div>
+
 
     <div class="books-grid">
-      <div class="book-card">
-        <h3>The Waiting Rooms of My Life</h3>
-        <p>
-          An in-progress memoir about caregiving, invisible labor, disability, and the long
-          afterlife of crisis.
-        </p>
-        <a class="writing-link" href="/memoir/">Read excerpts →</a>
-      </div>
 
       <div class="book-card">
-        <h3>Advocacy, Writing, and Systems Change</h3>
+
+        <h3>The Waiting Rooms of My Life</h3>
+
         <p>
-          Essays and public writing centered on lived experience, caregiving systems, and the
-          policies and practices that shape family life.
+          An in-progress memoir about caregiving,
+          invisible labor, and the long afterlife of crisis.
         </p>
+
+        <a class="writing-link" href="/memoir/">
+          Read excerpts →
+        </a>
+
       </div>
+
+
+      <div class="book-card">
+
+        <h3>Advocacy & Systems</h3>
+
+        <p>
+          Essays and commentary on disability advocacy,
+          caregiving systems, and lived experience.
+        </p>
+
+      </div>
+
     </div>
+
   </div>
+
 </section>
+
+
 
 <!-- WRITING -->
 <section class="writing" id="writing">
+
   <div class="wrap">
+
     <div class="section-head">
+
       <h2>Featured Writing</h2>
+
       <p>
-        Selected essays and reflections exploring caregiving, disability, invisible labor,
-        systems, and survival.
+        Essays and reflections on caregiving,
+        disability, and invisible labor.
       </p>
+
     </div>
+
 
     <div class="writing-grid">
+
       <a class="writing-card writing-feature" href="/memoir/">
-        <div class="writing-label">Memoir</div>
+
+        <div class="writing-label">
+          Memoir
+        </div>
+
         <h3>The Waiting Rooms of My Life</h3>
+
         <p>
-          Read selected excerpts from Kacie’s in-progress memoir on caregiving, disability,
-          and endurance.
+          Selected excerpts from Kacie’s in-progress memoir
+          exploring caregiving and endurance.
         </p>
-        <span class="writing-link">Read excerpts →</span>
+
+        <span class="writing-link">
+          Read excerpts →
+        </span>
+
       </a>
 
+
       <a class="writing-card" href="#">
-        <div class="writing-label">Essay</div>
+
+        <div class="writing-label">
+          Essay
+        </div>
+
         <h3>Caregiving as Systems Knowledge</h3>
+
         <p>
-          Reflections on what families learn when they become the connective tissue between
-          providers, institutions, and everyday survival.
+          What families learn when they become the connective tissue
+          inside healthcare systems.
         </p>
-        <span class="writing-link">Coming soon</span>
+
+        <span class="writing-link">
+          Coming soon
+        </span>
+
       </a>
 
+
       <a class="writing-card" href="#">
-        <div class="writing-label">Commentary</div>
-        <h3>Invisible Labor, Visible Cost</h3>
+
+        <div class="writing-label">
+          Commentary
+        </div>
+
+        <h3>The Invisible Tax of Care</h3>
+
         <p>
-          Writing on the administrative, emotional, and structural toll caregiving extracts
-          from families over time.
+          Administrative labor, emotional labor,
+          and the unseen work families carry.
         </p>
-        <span class="writing-link">Coming soon</span>
+
+        <span class="writing-link">
+          Coming soon
+        </span>
+
       </a>
+
     </div>
+
   </div>
+
 </section>
+
+
 
 <!-- SPEAKING -->
 <section class="speaking" id="speaking">
+
   <div class="wrap">
+
     <div class="section-head">
+
       <h2>Speaking</h2>
+
       <p>
-        Kacie speaks on disability advocacy, caregiving systems, lived experience, inclusive
-        communications, and the often unseen work families perform inside broken systems.
+        Kacie speaks on caregiving systems, disability advocacy,
+        and lived experience as systems knowledge.
       </p>
+
     </div>
+
 
     <div class="speaking-content">
+
       <p>
-        Her talks bring together story, strategy, and systems thinking to help audiences better
-        understand the realities families face across healthcare, education, disability, and care.
+        Her talks bring together story, strategy,
+        and systems thinking to help audiences understand
+        the realities families navigate every day.
       </p>
 
-      <a class="btn" href="mailto:kacie.buzzard@gmail.com">Inquire About Speaking</a>
+      <a class="btn" href="mailto:kacie.buzzard@gmail.com">
+        Inquire About Speaking
+      </a>
+
     </div>
+
   </div>
+
 </section>
+
+
 
 <!-- CONTACT -->
 <section class="contact" id="contact">
+
   <div class="wrap contact-inner">
+
     <h2>Get in Touch</h2>
+
     <p>
-      For speaking, writing, media, or collaboration inquiries, reach out directly.
+      For speaking, writing, media, or collaboration inquiries.
     </p>
-    <a class="btn" href="mailto:kacie.buzzard@gmail.com">Contact Kacie</a>
+
+    <a class="btn" href="mailto:kacie.buzzard@gmail.com">
+      Contact Kacie
+    </a>
+
   </div>
+
 </section>
