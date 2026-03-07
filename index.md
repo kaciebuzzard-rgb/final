@@ -52,26 +52,18 @@ permalink: /
 
 
 
-<!-- ABOUT -->
 <section id="about">
 
   <div class="wrap about-grid">
 
     <div class="about-image">
-
       <img
-        <img
-  src="/assets/img/about.jpeg"
-  alt="Portrait of Kacie Wielgus Buzzard"
-  class="about-photo">
+        src="/assets/img/about.jpg"
         alt="Portrait of Kacie Wielgus Buzzard"
         class="about-photo">
-
     </div>
 
-
     <div class="about-text">
-
       <h2>About Kacie</h2>
 
       <p>
@@ -94,15 +86,11 @@ permalink: /
         Kacie is currently developing her memoir,
         <em>The Waiting Rooms of My Life</em>.
       </p>
-
     </div>
 
   </div>
 
 </section>
-
-
-
 <!-- SERVICES -->
 <section class="services" id="services">
 
