@@ -3,51 +3,48 @@ layout: default
 title: Home
 permalink: /
 ---
----
-layout: default
-title: About
-permalink: /about/
----
 
-<section class="about-page">
+<!-- HERO -->
 
-<div class="wrap">
+<section class="hero" id="top">
 
-<h1>About Kacie</h1>
+<div class="hero-overlay"></div>
 
-<p>
-Kacie Wielgus (Buzzard) is a speaker, writer, and strategist working at the
-intersection of disability advocacy, caregiving systems, and inclusive communications.
+<div class="wrap hero-inner">
+
+<h1>Where Lived Experience Drives Systems Change</h1>
+
+<p class="hero-sub">
+Kacie Wielgus (Buzzard) is a speaker, writer, and strategist working at the intersection of disability advocacy, caregiving systems, and inclusive communications.
 </p>
 
-<p>
-Drawing on lived experience as a parent navigating complex medical and
-educational systems, her work explores the invisible labor families carry
-inside healthcare, disability, and caregiving structures.
-</p>
+<div class="hero-buttons">
 
-<p>
-Her writing focuses on themes of endurance, systems change, and the human
-stories that exist inside institutions designed without families in mind.
-</p>
+<a class="btn" href="#speaking">
+Book a Keynote
+</a>
 
-<p>
-Kacie is currently developing a memoir,
-<em>The Waiting Rooms of My Life</em>, which explores the emotional and
-structural realities of caregiving across hospital rooms, school systems,
-and the long afterlife of crisis.
-</p>
+<a class="btn btn-ghost" href="/memoir/">
+Read the Memoir
+</a>
 
-<p>
-In addition to writing, Kacie works with organizations to strengthen
-communications, advocacy strategies, and social media programs that connect
-lived experience with meaningful systems change.
-</p>
+</div>
 
-<p>
-Her work has appeared in outlets including <strong>The Mighty</strong>,
-<strong>Kveller</strong>, and <strong>Medium</strong>.
-</p>
+</div>
+</section>
+
+<!-- TOPICS -->
+
+<section class="topics">
+
+<div class="wrap topics-inner">
+
+<span>Disability Advocacy</span>
+<span>Caregiving Systems</span>
+<span>Invisible Labor</span>
+<span>Inclusive Communications</span>
+<span>Medical Motherhood</span>
+<span>Systems Change</span>
 
 </div>
 
