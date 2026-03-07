@@ -2,50 +2,73 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+<meta name="description" content="Speaker, writer, and strategist exploring disability advocacy, caregiving systems, and lived experience.">
 
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+
 </head>
 
-<body>
+<body id="top">
 
-  <header class="site-header">
-    <div class="wrap site-nav">
+<header class="site-header">
 
-      <a class="nav-logo" href="{{ '/' | relative_url }}#top">
-        Kacie Wielgus (Buzzard)
-      </a>
+<div class="wrap site-nav">
 
-      <nav class="nav-links" aria-label="Primary navigation">
-        <a href="{{ '/' | relative_url }}#about">About</a>
-        <a href="{{ '/' | relative_url }}#services">Services</a>
-        <a href="{{ '/' | relative_url }}#books">Books</a>
-        <a href="{{ '/' | relative_url }}#writing">Writing</a>
-        <a href="{{ '/' | relative_url }}#speaking">Speaking</a>
-        <a href="{{ '/' | relative_url }}#contact">Contact</a>
-        <a href="https://medium.com/@kwbuzzard" target="_blank" rel="noopener">Medium</a>
-      </nav>
+<a class="nav-logo" href="{{ '/' | relative_url }}">
+Kacie Wielgus (Buzzard)
+</a>
 
-    </div>
-  </header>
+<nav class="nav-links" aria-label="Primary navigation">
 
-  <main class="site-main">
-    {{ content }}
-  </main>
+<a href="{{ '/' | relative_url }}#about">About</a>
 
-  <footer class="site-footer">
-    <div class="wrap footer-inner">
-      <p>© {{ site.time | date: "%Y" }} Kacie Wielgus (Buzzard)</p>
-    </div>
-  </footer>
+<a href="{{ '/' | relative_url }}#services">Services</a>
+
+<a href="{{ '/' | relative_url }}#books">Books</a>
+
+<a href="{{ '/' | relative_url }}#writing">Writing</a>
+
+<a href="{{ '/memoir/' | relative_url }}">The Waiting Rooms of My Life</a>
+
+<a href="{{ '/' | relative_url }}#speaking">Speaking</a>
+
+<a href="{{ '/' | relative_url }}#contact">Contact</a>
+
+<a href="https://medium.com/@kwbuzzard" target="_blank" rel="noopener">Medium</a>
+
+</nav>
+
+</div>
+
+</header>
+
+
+<main class="site-main">
+{{ content }}
+</main>
+
+
+<footer class="site-footer">
+
+<div class="wrap footer-inner">
+
+<p>© {{ site.time | date: "%Y" }} Kacie Wielgus (Buzzard)</p>
+
+</div>
+
+</footer>
 
 </body>
+
 </html>
