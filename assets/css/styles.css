@@ -50,7 +50,48 @@ LAYOUT
 /* =========================================================
 HEADER
 ========================================================= */
+/* HEADER OVER HERO */
+.site-header{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:1000;
+  background:transparent;
+}
 
+.site-nav{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  padding:22px 0;
+}
+
+.nav-logo,
+.nav-links a{
+  color:#ffffff;
+  text-decoration:none;
+  font-weight:600;
+  text-shadow:0 2px 10px rgba(0,0,0,.35);
+}
+
+.nav-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:18px;
+}
+
+.nav-links a:hover,
+.nav-logo:hover{
+  color:#f3e3db;
+}
+
+/* make hero leave room for header */
+.hero{
+  position:relative;
+  padding-top:140px;
+}
 .site-header{
   position:sticky;
   top:0;
