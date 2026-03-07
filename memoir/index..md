@@ -3,10 +3,15 @@ layout: default
 title: The Waiting Rooms of My Life
 permalink: /memoir/
 ---
+
+<!-- MEMOIR HERO -->
+
 <section class="memoir-hero">
+
   <div class="memoir-overlay"></div>
 
   <div class="wrap memoir-inner">
+
     <p class="memoir-eyebrow">
       Memoir in Progress
     </p>
@@ -27,55 +32,12 @@ permalink: /memoir/
       <a href="#hospital-hallway">The Hospital Hallway Where Time Collapses</a>
       <a href="#invisible-tax">The Invisible Tax of Invisible Labor</a>
     </div>
-  </div>
-</section>
-<h1>
-  The Waiting Rooms of My Life
-</h1>
-
-<p class="memoir-intro">
-  The Waiting Rooms of My Life is an in-progress memoir about caregiving,
-  disability, invisible labor, and the long afterlife of crisis.
-  These excerpts explore what love asks of families navigating complex
-  systems of care — and what it costs to endure inside them.
-</p>
-
-<div class="memoir-jump-links">
-  <a href="#through-line">The Through-Line</a>
-  <a href="#hospital-hallway">The Hospital Hallway Where Time Collapses</a>
-  <a href="#invisible-tax">The Invisible Tax of Invisible Labor</a>
-</div>
-
-<section class="memoir-hero">
-
-  <div class="memoir-hero-overlay"></div>
-
-  <div class="wrap memoir-hero-inner">
-
-    <p class="memoir-eyebrow">
-      Memoir in Progress
-    </p>
-
-    <h1>
-      The Waiting Rooms of My Life
-    </h1>
-
-    <p class="memoir-intro">
-      The Waiting Rooms of My Life is an in-progress memoir about caregiving,
-      disability, invisible labor, and the long afterlife of crisis.
-      These excerpts explore what love asks of families navigating complex
-      systems of care — and what it costs to endure inside them.
-    </p>
-
-    <div class="memoir-jump-links">
-      <a href="#through-line">The Through-Line</a>
-      <a href="#hospital-hallway">The Hospital Hallway Where Time Collapses</a>
-      <a href="#invisible-tax">The Invisible Tax of Invisible Labor</a>
-    </div>
 
   </div>
 
 </section>
+
+
 
 <!-- MEMOIR EXCERPTS -->
 
@@ -160,7 +122,9 @@ permalink: /memoir/
 
     </article>
 
+
     <div class="memoir-divider"></div>
+
 
     <!-- EXCERPT 2 -->
 
@@ -233,7 +197,9 @@ permalink: /memoir/
 
     </article>
 
+
     <div class="memoir-divider"></div>
+
 
     <!-- EXCERPT 3 -->
 
@@ -312,6 +278,8 @@ permalink: /memoir/
   </div>
 
 </section>
+
+
 
 <!-- MEMOIR CTA -->
 
