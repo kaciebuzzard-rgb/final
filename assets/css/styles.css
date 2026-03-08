@@ -755,3 +755,94 @@ RESPONSIVE
   }
 
 }
+/* =========================================================
+MEMOIR PAGE
+========================================================= */
+
+.memoir-page{
+  padding:110px 0 40px;
+  background:#ffffff;
+}
+
+.memoir-page .wrap{
+  max-width:760px;
+  margin:auto;
+}
+
+.memoir-page h1{
+  font-size:clamp(34px,4vw,46px);
+  margin-bottom:24px;
+  letter-spacing:-.3px;
+}
+
+.memoir-intro{
+  font-size:20px;
+  line-height:1.7;
+  margin-bottom:28px;
+  color:#3a3532;
+}
+
+/* =========================================================
+EXCERPTS
+========================================================= */
+
+.memoir-excerpts{
+  padding:40px 0 90px;
+  background:#faf7f4;
+}
+
+.memoir-excerpts .wrap{
+  max-width:760px;
+  margin:auto;
+}
+
+.memoir-excerpts h2{
+  font-size:28px;
+  margin-bottom:40px;
+  letter-spacing:-.3px;
+}
+
+.excerpt{
+  margin-bottom:64px;
+}
+
+.excerpt h3{
+  font-size:22px;
+  margin-bottom:12px;
+  color:#8e3c2f;
+}
+
+.excerpt p{
+  font-size:18px;
+  line-height:1.75;
+  margin-bottom:18px;
+  color:#2a2623;
+}
+
+/* subtle divider between excerpts */
+
+.excerpt:not(:last-child){
+  border-bottom:1px solid rgba(0,0,0,.08);
+  padding-bottom:40px;
+}
+
+/* =========================================================
+RESPONSIVE
+========================================================= */
+
+@media (max-width:720px){
+
+.memoir-page,
+.memoir-excerpts{
+  padding:80px 24px;
+}
+
+.memoir-page h1{
+  font-size:32px;
+}
+
+.excerpt p{
+  font-size:17px;
+}
+
+}
