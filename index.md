@@ -79,6 +79,39 @@ title: Home
         <strong>The Waiting Rooms of My Life</strong>, about the quiet endurance
         required to navigate complex medical and caregiving systems.
       </p>
+
+      <p>
+Kacie Wielgus (Buzzard) is a communications strategist, writer, and speaker
+focused on the intersection of disability advocacy, caregiving systems,
+and storytelling.
+</p>
+
+<p>
+Her work explores the invisible labor families carry inside healthcare,
+education, and disability systems — and the structural changes needed to
+support them.
+</p>
+
+<p>
+Kacie is currently developing a memoir,
+<strong>The Waiting Rooms of My Life</strong>, about the
+quiet endurance required to navigate complex medical and caregiving systems.
+</p>
+
+<p>
+Drawing on both professional communications experience and lived
+experience as a caregiver, Kacie brings a unique perspective to conversations
+about how institutions interact with the people they serve. Her work highlights
+the operational realities families face when navigating healthcare, education,
+and social systems that often require advocacy simply to function.
+</p>
+
+<p>
+Through speaking, writing, and strategic advising, she helps organizations
+better understand the human stories that exist inside complex systems and
+how thoughtful communication can create more inclusive, responsive
+environments for the communities they serve.
+</p>
     </div>
 
   </div>
