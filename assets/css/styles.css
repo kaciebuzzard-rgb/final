@@ -51,8 +51,9 @@ z-index:1000;
 }
 
 .nav-links{
-display:flex;
-gap:24px;
+  display:flex;
+  align-items:center;
+  gap:32px;
 }
 
 .nav-links a{
