@@ -1,7 +1,57 @@
----
-layout: default
-title: Home
----
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Kacie Wielgus (Buzzard)</title>
+
+<meta name="description" content="Speaker, writer, and strategist exploring disability advocacy, caregiving systems, and lived experience.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/assets/css/styles.css">
+
+</head>
+
+<body id="top">
+
+<header class="site-header">
+
+<div class="wrap site-nav">
+
+<a class="nav-logo" href="/">
+Kacie Wielgus (Buzzard)
+</a>
+
+<nav class="nav-links" aria-label="Primary navigation">
+
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#books">Books</a>
+<a href="#writing">Writing</a>
+<a href="/memoir/">The Waiting Rooms of My Life</a>
+<a href="#speaking">Speaking</a>
+<a href="#contact">Contact</a>
+
+<a href="https://medium.com/@kwbuzzard" target="_blank" rel="noopener">
+Medium
+</a>
+
+</nav>
+
+</div>
+
+</header>
+
+
+<main class="site-main">
+
 
 <!-- HERO -->
 
@@ -64,9 +114,7 @@ Learn More
 <div class="wrap about-grid">
 
 <div class="about-image">
-
 <img src="/assets/img/about-kacie.jpg" alt="Kacie Wielgus Buzzard">
-
 </div>
 
 <div class="about-text">
@@ -87,21 +135,12 @@ support them.
 
 <p>
 Her writing has appeared in outlets including <em>The Mighty</em>,
-<em>Kveller</em>, and Medium, where she writes about caregiving,
-medical motherhood, and the lived realities families navigate inside
-complex systems.
+<em>Kveller</em>, and Medium.
 </p>
 
 <p>
 Kacie is currently developing a memoir,
-<strong>The Waiting Rooms of My Life</strong>, about the quiet endurance
-required to navigate complex medical and caregiving systems.
-</p>
-
-<p>
-Drawing on both professional communications experience and lived
-experience as a caregiver, she brings a unique perspective to conversations
-about how institutions interact with the people they serve.
+<strong>The Waiting Rooms of My Life</strong>.
 </p>
 
 </div>
@@ -126,37 +165,18 @@ about how institutions interact with the people they serve.
 <div class="books-grid">
 
 <div class="book-card">
-
 <h3>Keynote Speaking</h3>
-
-<p>
-Talks and panels focused on disability advocacy, caregiving systems,
-inclusive communications, and the lived realities families navigate
-inside complex institutions.
-</p>
-
+<p>Talks focused on disability advocacy and caregiving systems.</p>
 </div>
 
 <div class="book-card">
-
-<h3>Strategic Communications & Advising</h3>
-
-<p>
-Advising organizations on messaging, narrative strategy, and
-thought leadership around complex human-centered issues.
-</p>
-
+<h3>Strategic Communications</h3>
+<p>Messaging and narrative strategy for complex issues.</p>
 </div>
 
 <div class="book-card">
-
-<h3>Writing & Thought Leadership</h3>
-
-<p>
-Essays, narrative storytelling, and public writing that connect
-lived experience to larger conversations about systems change.
-</p>
-
+<h3>Writing</h3>
+<p>Essays and storytelling connecting lived experience to systems change.</p>
 </div>
 
 </div>
@@ -174,7 +194,7 @@ lived experience to larger conversations about systems change.
 
 <div class="about-image">
 
-<img src="/assets/img/kacie-speaks.png" alt="Kacie Wielgus Buzzard speaking to an audience">
+<img src="/assets/img/kacie-speaks.png" alt="Kacie Wielgus Buzzard speaking">
 
 </div>
 
@@ -183,38 +203,14 @@ lived experience to larger conversations about systems change.
 <h2>Speaking</h2>
 
 <p>
-Kacie speaks on disability advocacy, caregiving systems,
-invisible labor, and the human stories that exist inside
-healthcare and education institutions.
+Kacie speaks on disability advocacy, caregiving systems, invisible labor,
+and storytelling.
 </p>
 
 <p>
-Her perspective blends professional communications expertise
-with lived experience navigating complex systems as a caregiver.
-She helps audiences understand how institutions shape the
-day-to-day realities of families.
+Her perspective blends communications expertise with lived experience
+navigating complex systems as a caregiver.
 </p>
-
-<p>
-Her talks are especially relevant for healthcare organizations,
-education audiences, nonprofits, advocacy groups, and leadership
-events focused on inclusion, systems change, and human-centered
-communication.
-</p>
-
-<div class="speaking-topics">
-
-<h3>Popular Talks</h3>
-
-<ul>
-<li>The Invisible Labor Families Carry Inside Complex Systems</li>
-<li>Caregiving as Systems Navigation</li>
-<li>Medical Motherhood, Endurance, and Advocacy</li>
-<li>Why Lived Experience Should Shape Institutional Communication</li>
-<li>Disability Advocacy, Storytelling, and Systems Change</li>
-</ul>
-
-</div>
 
 <div style="margin-top:28px">
 
@@ -231,139 +227,57 @@ Book a Speaking Engagement
 </section>
 
 
-<!-- BOOKS -->
+<!-- CONTACT -->
 
-<section id="books" class="books">
-
-<div class="wrap">
-
-<div class="section-head">
-
-<h2>Books</h2>
-
-</div>
-
-<div class="books-grid">
-
-<div class="book-card">
-
-<img src="/assets/img/for-the-love-of-autism.png" alt="For the Love of Autism book cover">
-
-<h3>For the Love of Autism</h3>
-
-<p>
-A collaborative book project centered on autism,
-advocacy, and lived experience.
-</p>
-
-</div>
-
-
-<div class="book-card">
-
-<img src="/assets/img/book2.png" alt="Neurodiversity workbook for parents cover">
-
-<h3>Neurodiversity Workbook for Parents</h3>
-
-<p>
-A practical resource supporting families navigating
-neurodivergence and advocacy.
-</p>
-
-</div>
-
-
-<div class="book-card">
-
-<img src="/assets/img/memoir-hero.png" alt="The Waiting Rooms of My Life memoir">
-
-<h3>The Waiting Rooms of My Life</h3>
-
-<p>
-A memoir in progress exploring caregiving,
-endurance, and the invisible operational work
-families perform inside complex systems.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- WRITING -->
-
-<section id="writing" class="books">
+<section id="contact" class="contact-section">
 
 <div class="wrap">
 
 <div class="section-head">
 
-<h2>Writing</h2>
+<h2>Contact</h2>
 
 <p>
-Selected excerpts from the memoir-in-progress
-<em>The Waiting Rooms of My Life</em>.
+For speaking, writing, or collaboration inquiries, please get in touch.
 </p>
 
 </div>
 
-<div class="books-grid">
-
-<div class="book-card">
-
-<img src="/assets/img/memoir-chair.png">
-
-<h3>The Chair</h3>
+<div class="about-text" style="max-width:760px;margin:0 auto;text-align:center;">
 
 <p>
-A reflection on the quiet endurance of staying beside
-a hospital bed.
+Email:
+<a href="mailto:kacie.buzzard@gmail.com">kacie.buzzard@gmail.com</a>
 </p>
 
-</div>
+<div style="margin-top:28px">
 
-
-<div class="book-card">
-
-<img src="/assets/img/hospital-hallway.png">
-
-<h3>The Hospital Hallway Where Time Collapses</h3>
-
-<p>
-On waiting, uncertainty, and the strange elasticity of
-time inside medical systems.
-</p>
-
-</div>
-
-
-<div class="book-card">
-
-<img src="/assets/img/the-invisible-tax.png">
-
-<h3>The Invisible Tax of Invisible Labor</h3>
-
-<p>
-An exploration of the hidden operational work families
-perform every day.
-</p>
-
-</div>
-
-</div>
-
-<div style="text-align:center;margin-top:40px">
-
-<a class="btn" href="/memoir/">
-Read Memoir Excerpts
+<a class="btn" href="mailto:kacie.buzzard@gmail.com">
+Email Kacie
 </a>
 
 </div>
 
 </div>
 
+</div>
+
 </section>
+
+
+</main>
+
+
+<footer class="site-footer">
+
+<div class="wrap footer-inner">
+
+<p>© 2026 Kacie Wielgus (Buzzard)</p>
+
+</div>
+
+</footer>
+
+</body>
+
+</html>
