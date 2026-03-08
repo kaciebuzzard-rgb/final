@@ -46,8 +46,8 @@ z-index:1000;
 }
 
 .nav-logo{
-color:#ffffff;
-font-weight:700;
+  position:relative;
+  top:4px;
 }
 
 .nav-links{
