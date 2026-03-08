@@ -143,6 +143,16 @@ HERO
   margin-left:clamp(180px, 20vw, 360px);
 }
 
+.hero-kicker{
+  font-size:14px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#ffffff;
+  opacity:.88;
+  margin-bottom:14px;
+  text-shadow:0 1px 6px rgba(0,0,0,.22);
+}
+
 .hero h1{
   color:#ffffff;
   font-size:clamp(54px, 6vw, 86px);
@@ -269,6 +279,14 @@ SECTION HEAD
   font-size:clamp(30px, 3vw, 42px);
   line-height:1.15;
   color:#1f1b18;
+}
+
+.section-head p{
+  max-width:720px;
+  margin:14px auto 0;
+  font-size:18px;
+  line-height:1.7;
+  color:#3a342f;
 }
 
 /* =========================================================
@@ -542,7 +560,8 @@ RESPONSIVE
   .about-text p,
   .book-card p,
   .memoir-page p,
-  .excerpt p{
+  .excerpt p,
+  .section-head p{
     font-size:17px;
   }
 
