@@ -65,7 +65,7 @@ Learn More
 
 <div class="about-image">
 
-<img src="/assets/img/about-kacie.jpg" alt="Kacie Wielgus Buzzard speaking">
+<img src="/assets/img/about-kacie.jpg" alt="Kacie Wielgus Buzzard">
 
 </div>
 
@@ -137,7 +137,6 @@ inside complex institutions.
 
 </div>
 
-
 <div class="book-card">
 
 <h3>Strategic Communications & Advising</h3>
@@ -148,7 +147,6 @@ thought leadership around complex human-centered issues.
 </p>
 
 </div>
-
 
 <div class="book-card">
 
@@ -172,15 +170,17 @@ lived experience to larger conversations about systems change.
 
 <section id="speaking" class="books">
 
-<div class="wrap">
+<div class="wrap about-grid">
 
-<div class="section-head">
+<div class="about-image">
 
-<h2>Speaking</h2>
+<img src="/assets/img/kacie-speaks.png" alt="Kacie Wielgus Buzzard speaking to an audience">
 
 </div>
 
-<div class="about-text" style="max-width:760px;margin:0 auto;text-align:center;">
+<div class="about-text">
+
+<h2>Speaking</h2>
 
 <p>
 Kacie speaks on disability advocacy, caregiving systems,
@@ -191,12 +191,35 @@ healthcare and education institutions.
 <p>
 Her perspective blends professional communications expertise
 with lived experience navigating complex systems as a caregiver.
+She helps audiences understand how institutions shape the
+day-to-day realities of families.
 </p>
 
-<div style="margin-top:30px">
+<p>
+Her talks are especially relevant for healthcare organizations,
+education audiences, nonprofits, advocacy groups, and leadership
+events focused on inclusion, systems change, and human-centered
+communication.
+</p>
+
+<div class="speaking-topics">
+
+<h3>Popular Talks</h3>
+
+<ul>
+<li>The Invisible Labor Families Carry Inside Complex Systems</li>
+<li>Caregiving as Systems Navigation</li>
+<li>Medical Motherhood, Endurance, and Advocacy</li>
+<li>Why Lived Experience Should Shape Institutional Communication</li>
+<li>Disability Advocacy, Storytelling, and Systems Change</li>
+</ul>
+
+</div>
+
+<div style="margin-top:28px">
 
 <a class="btn" href="mailto:kacie.buzzard@gmail.com">
-Inquire About Speaking
+Book a Speaking Engagement
 </a>
 
 </div>
@@ -243,7 +266,7 @@ advocacy, and lived experience.
 <h3>Neurodiversity Workbook for Parents</h3>
 
 <p>
-A practical, supportive resource for families navigating
+A practical resource supporting families navigating
 neurodivergence and advocacy.
 </p>
 
@@ -292,7 +315,7 @@ Selected excerpts from the memoir-in-progress
 
 <div class="book-card">
 
-<img src="/assets/img/memoir-chair.png" alt="The Chair excerpt image">
+<img src="/assets/img/memoir-chair.png">
 
 <h3>The Chair</h3>
 
@@ -306,7 +329,7 @@ a hospital bed.
 
 <div class="book-card">
 
-<img src="/assets/img/hospital-hallway.png" alt="Hospital hallway excerpt image">
+<img src="/assets/img/hospital-hallway.png">
 
 <h3>The Hospital Hallway Where Time Collapses</h3>
 
@@ -320,7 +343,7 @@ time inside medical systems.
 
 <div class="book-card">
 
-<img src="/assets/img/the-invisible-tax.png" alt="Invisible labor excerpt image">
+<img src="/assets/img/the-invisible-tax.png">
 
 <h3>The Invisible Tax of Invisible Labor</h3>
 
@@ -338,40 +361,6 @@ perform every day.
 <a class="btn" href="/memoir/">
 Read Memoir Excerpts
 </a>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- CONTACT -->
-
-<section id="contact" class="contact-section">
-
-<div class="wrap">
-
-<div class="section-head">
-
-<h2>Contact</h2>
-
-</div>
-
-<div class="about-text" style="max-width:760px;margin:0 auto;text-align:center;">
-
-<p>
-For speaking, writing, consulting, or collaboration inquiries,
-please get in touch.
-</p>
-
-<div style="margin-top:28px">
-
-<a class="btn" href="mailto:kacie.buzzard@gmail.com">
-Email Kacie
-</a>
-
-</div>
 
 </div>
 
