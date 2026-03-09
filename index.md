@@ -87,49 +87,36 @@ permalink: /
   </div>
 </section>
 
-<!-- SERVICES -->
 <section id="services" class="services">
+
   <div class="wrap">
+
     <div class="section-head">
       <h2>Services</h2>
-      <p>
-        Speaking, strategy, and writing rooted in lived experience,
-        systems thinking, and inclusive communication.
-      </p>
     </div>
 
     <div class="books-grid">
-      <article class="book-card">
-        <div class="book-content">
-          <h3>Keynote Speaking</h3>
-          <p>
-            Talks focused on disability advocacy, caregiving systems,
-            invisible labor, and systems change.
-          </p>
-        </div>
-      </article>
 
-      <article class="book-card">
-        <div class="book-content">
-          <h3>Strategic Communications</h3>
-          <p>
-            Messaging, narrative strategy, and content development
-            for complex issues and mission-driven organizations.
-          </p>
-        </div>
-      </article>
+      <div class="book-card">
+        <h3>Keynote Speaking</h3>
+        <p>
+          Talks focused on disability advocacy, caregiving systems,
+          invisible labor, and systems change.
+        </p>
+      </div>
 
-      <article class="book-card">
-        <div class="book-content">
-          <h3>Writing</h3>
-          <p>
-            Essays, reflections, and long-form storytelling connecting
-            lived experience to institutional change.
-          </p>
-        </div>
-      </article>
+      <div class="book-card">
+        <h3>Strategic Communications</h3>
+        <p>
+          Messaging, narrative strategy, and content development
+          for complex issues and mission-driven organizations.
+        </p>
+      </div>
+
     </div>
+
   </div>
+
 </section>
 
 <!-- BOOKS -->
