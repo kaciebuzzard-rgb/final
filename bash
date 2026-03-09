@@ -10,3 +10,6 @@ git push
 git add .
 git commit -m "Fix layout to render index content"
 git push
+git add .
+git commit -m "Fix services section + update about + books"
+git push
