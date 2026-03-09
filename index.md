@@ -140,97 +140,70 @@ permalink: /
 
 </section>
 
-<!-- BOOKS -->
-<section id="books" class="books">
-
+<section id="books" class="books-section">
   <div class="wrap">
-
-    <div class="section-head">
-      <h2>Books</h2>
+    <div class="section-heading">
+      <p class="section-kicker">Books</p>
+      <h2>Books & Guided Resources</h2>
+      <p class="section-intro">
+        Writing and workbook projects centered on neurodiversity, caregiving,
+        advocacy, and the lived experience behind systems change.
+      </p>
     </div>
 
     <div class="books-grid">
-
-      <!-- BOOK 1 -->
-      <div class="book-card">
-
-        <img
-          src="{{ '/assets/img/for-the-love-of-autism.png' | relative_url }}"
-          alt="For the Love of Autism book cover"
-          loading="lazy">
-
-        <h3>For the Love of Autism</h3>
-
-        <p>
-          A collaborative resource centered on autism advocacy,
-          community, and lived experience.
-        </p>
-
-        <div style="margin-top:18px">
-          <a class="btn"
-             href="https://a.co/d/09hbEPCJ"
-             target="_blank"
-             rel="noopener">
-            View on Amazon
-          </a>
+      <article class="book-card">
+        <div class="book-image-wrap">
+          <img
+            src="{{ '/assets/img/neurodiversity-workbook.jpg' | relative_url }}"
+            alt="Cover of the Neurodiversity Workbook for Parents"
+            class="book-image">
         </div>
-
-      </div>
-
-      <!-- BOOK 2 -->
-      <div class="book-card">
-
-        <img
-          src="{{ '/assets/img/neurodiversity-workbook-book.png' | relative_url }}"
-          alt="Neurodiversity Workbook for Parents"
-          loading="lazy">
-
-        <h3>Neurodiversity Workbook for Parents</h3>
-
-        <p>
-          A practical workbook designed to help families navigate
-          neurodiversity with confidence and support.
-        </p>
-
-        <div style="margin-top:18px">
-          <a class="btn"
-             href="https://a.co/d/0hgY90mK"
-             target="_blank"
-             rel="noopener">
-            View on Amazon
-          </a>
+        <div class="book-content">
+          <h3>Neurodiversity Workbook for Parents</h3>
+          <p class="book-subtitle">
+            A practical guided resource for parents navigating advocacy,
+            education, and support systems.
+          </p>
+          <p>
+            This workbook is designed to help families organize their thinking,
+            document priorities, and move through complex systems with greater
+            clarity and confidence.
+          </p>
+          <div class="book-actions">
+            <a href="/assets/pdf/neurodiversity-workbook.pdf" class="btn btn-secondary" target="_blank" rel="noopener">
+              Preview
+            </a>
+          </div>
         </div>
+      </article>
 
-      </div>
-
-      <!-- BOOK 3 -->
-      <div class="book-card">
-
-        <img
-          src="{{ '/assets/img/invisible-tax.jpg' | relative_url }}"
-          alt="The Waiting Rooms of My Life memoir"
-          loading="lazy">
-
-        <h3>The Waiting Rooms of My Life</h3>
-
-        <p>
-          A memoir in progress exploring caregiving systems,
-          invisible labor, and the endurance families carry.
-        </p>
-
-        <div style="margin-top:18px">
-          <a class="btn btn-ghost"
-             href="{{ '/memoir/' | relative_url }}">
-            Read Excerpts
-          </a>
+      <article class="book-card">
+        <div class="book-image-wrap">
+          <img
+            src="{{ '/assets/img/for-the-love-of-autism.jpg' | relative_url }}"
+            alt="Cover of For the Love of Autism"
+            class="book-image">
         </div>
-
-      </div>
-
+        <div class="book-content">
+          <h3>For the Love of Autism</h3>
+          <p class="book-subtitle">
+            A collaborative project rooted in advocacy, lived experience, and
+            storytelling for families raising autistic children.
+          </p>
+          <p>
+            This work reflects the realities, resilience, and deep love that
+            shape family life inside disability and caregiving systems.
+          </p>
+          <div class="book-actions">
+            <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">
+              Ask About This Book
+            </a>
+          </div>
+        </div>
+      </article>
     </div>
-
   </div>
-
 </section>
 
 <!-- WRITING -->
