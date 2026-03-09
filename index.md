@@ -148,7 +148,7 @@ permalink: /
       <article class="book-card">
         <div class="book-image-wrap">
           <img
-            src="{{ '/assets/img/neurodiversity-workbook.jpg' | relative_url }}"
+            src="{{ '/assets/img/neurodiversity-workbook.png' | relative_url }}"
             alt="Cover of the Neurodiversity Workbook for Parents"
             class="book-image">
         </div>
@@ -167,11 +167,11 @@ permalink: /
 
           <div class="book-actions">
             <a
-              href="{{ '/assets/pdf/neurodiversity-workbook.pdf' | relative_url }}"
+              href="https://a.co/d/0fAxUBJb"
               class="btn"
               target="_blank"
               rel="noopener">
-              Preview
+              Purchase on Amazon
             </a>
           </div>
         </div>
@@ -180,7 +180,7 @@ permalink: /
       <article class="book-card">
         <div class="book-image-wrap">
           <img
-            src="{{ '/assets/img/for-the-love-of-autism.jpg' | relative_url }}"
+            src="{{ '/assets/img/for-the-love-of-autism.png' | relative_url }}"
             alt="Cover of For the Love of Autism"
             class="book-image">
         </div>
@@ -197,8 +197,12 @@ permalink: /
           </p>
 
           <div class="book-actions">
-            <a href="mailto:kacie.buzzard@gmail.com" class="btn">
-              Ask About This Book
+            <a
+              href="https://a.co/d/0bn3UkR8"
+              class="btn"
+              target="_blank"
+              rel="noopener">
+              Purchase on Amazon
             </a>
           </div>
         </div>
@@ -206,7 +210,6 @@ permalink: /
     </div>
   </div>
 </section>
-
 <!-- WRITING -->
 <section id="writing" class="writing-section">
   <div class="wrap">
