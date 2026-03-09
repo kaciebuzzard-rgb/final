@@ -383,12 +383,55 @@ SERVICES
 }
 
 .services .books-grid{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:40px;
-  max-width:800px;
-  margin:0 auto;
+  grid-template-columns:repeat(3, minmax(0, 1fr));
+  gap:32px;
+  max-width:none;
+  margin:0;
 }
+
+.services .book-card{
+  padding:28px;
+}
+
+.services .book-card h3{
+  font-size:1.45rem;
+  line-height:1.2;
+  margin-bottom:12px;
+  color:#1e1b18;
+}
+
+.services .book-card p{
+  color:#4e463f;
+  line-height:1.75;
+  margin-bottom:0;
+}
+
+/* =========================================================
+WRITING
+========================================================= */
+
+.writing-section{
+  padding:100px 0;
+  background:#ffffff;
+}
+
+.writing-section .book-card{
+  padding:28px;
+}
+
+.writing-section .book-card h3{
+  font-size:1.45rem;
+  line-height:1.2;
+  margin-bottom:12px;
+  color:#1e1b18;
+}
+
+.writing-section .book-card p{
+  color:#4e463f;
+  line-height:1.75;
+  margin-bottom:0;
+}
+
 /* =========================================================
 SPEAKING TOPICS
 ========================================================= */
@@ -534,6 +577,12 @@ RESPONSIVE
     grid-template-columns:1fr;
   }
 
+  .services .books-grid{
+    grid-template-columns:1fr;
+    max-width:700px;
+    margin:0 auto;
+  }
+
   .books-grid{
     grid-template-columns:1fr 1fr;
   }
@@ -545,7 +594,6 @@ RESPONSIVE
   .memoir-page{
     padding:180px 0 36px;
   }
-
 }
 
 @media (max-width:900px){
@@ -553,7 +601,6 @@ RESPONSIVE
   .books-grid{
     grid-template-columns:1fr;
   }
-
 }
 
 @media (max-width:640px){
@@ -616,6 +663,11 @@ RESPONSIVE
     padding:22px;
   }
 
+  .services .book-card,
+  .writing-section .book-card{
+    padding:22px 20px 26px;
+  }
+
   .excerpt{
     padding:24px;
   }
@@ -623,5 +675,4 @@ RESPONSIVE
   .excerpt h3{
     font-size:22px;
   }
-
 }
