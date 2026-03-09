@@ -181,7 +181,7 @@ BUTTONS
   color:#ffffff;
 }
 
-.books .btn-ghost,
+.books-section .btn-ghost,
 .writing-section .btn-ghost,
 .memoir-excerpts .btn-ghost{
   border:2px solid #e56a2f;
@@ -189,7 +189,7 @@ BUTTONS
   background:transparent;
 }
 
-.books .btn-ghost:hover,
+.books-section .btn-ghost:hover,
 .writing-section .btn-ghost:hover,
 .memoir-excerpts .btn-ghost:hover{
   background:#e56a2f;
@@ -274,61 +274,103 @@ SECTION HEAD
 }
 
 /* =========================================================
-CARDS / GRID SECTIONS
+BOOKS
 ========================================================= */
 
-.books,
-.writing-section{
-  padding:100px 0;
+.books-section{
+  padding:96px 0;
+  background:#f8f4ef;
+}
+
+.section-heading{
+  max-width:760px;
+  margin:0 auto 48px;
+  text-align:center;
+}
+
+.section-kicker{
+  font-size:.85rem;
+  font-weight:700;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:#a44c34;
+  margin-bottom:12px;
+}
+
+.section-heading h2{
+  font-size:clamp(2rem,4vw,3rem);
+  line-height:1.1;
+  margin-bottom:16px;
+  color:#1e1b18;
+}
+
+.section-intro{
+  font-size:1.05rem;
+  line-height:1.7;
+  color:#5b5148;
 }
 
 .books-grid{
   display:grid;
-  grid-template-columns:repeat(3,1fr);
+  grid-template-columns:repeat(2, minmax(0, 1fr));
   gap:32px;
   align-items:stretch;
 }
 
 .book-card{
   background:#ffffff;
-  border-radius:12px;
-  padding:26px;
-  box-shadow:0 14px 30px rgba(0,0,0,.06);
-  height:100%;
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:0 12px 30px rgba(0,0,0,.08);
   display:flex;
   flex-direction:column;
+  height:100%;
 }
 
-.book-card img{
+.book-image-wrap{
+  background:#efe6dc;
+  padding:28px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.book-image{
   width:100%;
-  height:260px;
+  max-width:260px;
+  height:auto;
   object-fit:contain;
-  object-position:center;
-  background:#ffffff;
-  border-radius:10px;
-  margin-bottom:16px;
-  padding:8px;
+  border-radius:12px;
+  box-shadow:0 10px 24px rgba(0,0,0,.14);
 }
 
-.book-card h3{
-  font-size:22px;
+.book-content{
+  padding:28px 28px 32px;
+}
+
+.book-content h3{
+  font-size:1.45rem;
+  line-height:1.2;
   margin-bottom:12px;
-  line-height:1.3;
+  color:#1e1b18;
 }
 
-.book-card p{
-  font-size:17px;
-  line-height:1.7;
-  color:#3a342f;
+.book-subtitle{
+  font-size:1rem;
+  font-weight:600;
+  line-height:1.6;
+  color:#a44c34;
   margin-bottom:14px;
 }
 
-.book-card p:last-child{
-  margin-bottom:0;
+.book-content p{
+  color:#4e463f;
+  line-height:1.75;
+  margin-bottom:16px;
 }
 
-.book-card > div:last-child{
-  margin-top:auto;
+.book-actions{
+  margin-top:20px;
 }
 
 /* =========================================================
@@ -505,11 +547,15 @@ RESPONSIVE
 
 }
 
-@media (max-width:640px){
+@media (max-width:900px){
 
   .books-grid{
     grid-template-columns:1fr;
   }
+
+}
+
+@media (max-width:640px){
 
   .hero h1{
     font-size:42px;
@@ -539,11 +585,15 @@ RESPONSIVE
 
   .about-section,
   .services,
-  .books,
+  .books-section,
   .writing-section,
   .contact-section,
   .memoir-excerpts{
     padding:80px 0;
+  }
+
+  .books-section{
+    padding:72px 0;
   }
 
   .memoir-page{
@@ -552,8 +602,17 @@ RESPONSIVE
 
   .about-text h2,
   .section-head h2,
-  .memoir-excerpts h2{
+  .memoir-excerpts h2,
+  .section-heading h2{
     font-size:30px;
+  }
+
+  .book-content{
+    padding:22px 20px 26px;
+  }
+
+  .book-image-wrap{
+    padding:22px;
   }
 
   .excerpt{
@@ -562,10 +621,6 @@ RESPONSIVE
 
   .excerpt h3{
     font-size:22px;
-  }
-
-  .book-card img{
-    height:220px;
   }
 
 }
