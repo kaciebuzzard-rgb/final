@@ -151,7 +151,7 @@ permalink: /
         </p>
 
         <div style="margin-top:18px">
-          <a class="btn" href="PASTE-AMAZON-LINK-FOR-FOR-THE-LOVE-OF-AUTISM" target="_blank" rel="noopener">
+          <a class="btn" href="https://a.co/d/09hbEPCJ" target="_blank" rel="noopener">
             View on Amazon
           </a>
         </div>
@@ -168,7 +168,7 @@ permalink: /
         </p>
 
         <div style="margin-top:18px">
-          <a class="btn" href="PASTE-AMAZON-LINK-FOR-NEURODIVERSITY-WORKBOOK" target="_blank" rel="noopener">
+          <a class="btn" href="https://a.co/d/0hgY90mK" target="_blank" rel="noopener">
             View on Amazon
           </a>
         </div>
