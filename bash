@@ -7,3 +7,6 @@ git push
 git add .
 git commit -m "update hero and speaking images"
 git push
+git add .
+git commit -m "Fix layout to render index content"
+git push
