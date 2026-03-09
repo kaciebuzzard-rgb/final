@@ -127,8 +127,6 @@ permalink: /
 
   </div>
 
-</section>
-
 <!-- BOOKS -->
 <section id="books" class="books">
 
@@ -140,8 +138,9 @@ permalink: /
 
     <div class="books-grid">
 
+      <!-- BOOK 1 -->
       <div class="book-card">
-        <img src="{{ '/assets/img/for-the-love-of-autism.png' | relative_url }}" alt="For the Love of Autism book cover">
+        <img src="{{ '/assets/img/for-the-love-of-autism.png' | relative_url }}" alt="For the Love of Autism book cover" loading="lazy">
 
         <h3>For the Love of Autism</h3>
 
@@ -157,8 +156,28 @@ permalink: /
         </div>
       </div>
 
+
+      <!-- BOOK 2 -->
       <div class="book-card">
-        <img src="{{ '/assets/img/neurodiversity-workbook-for-parents.webp' | relative_url }}" alt="Neurodiversity Workbook for Parents book cover">
+        <img src="{{ '/assets/img/invisible-tax.jpg' | relative_url }}" alt="The Waiting Rooms of My Life memoir" loading="lazy">
+
+        <h3>The Waiting Rooms of My Life</h3>
+
+        <p>
+          A memoir in progress about caregiving, medical systems, and invisible labor.
+        </p>
+
+        <div style="margin-top:18px">
+          <a class="btn btn-ghost" href="{{ '/memoir/' | relative_url }}">
+            Read Excerpts
+          </a>
+        </div>
+      </div>
+
+
+      <!-- BOOK 3 -->
+      <div class="book-card">
+        <img src="{{ '/assets/img/neurodiversity-workbook-for-parents.webp' | relative_url }}" alt="Neurodiversity Workbook for Parents book cover" loading="lazy">
 
         <h3>Neurodiversity Workbook for Parents</h3>
 
@@ -170,22 +189,6 @@ permalink: /
         <div style="margin-top:18px">
           <a class="btn" href="https://a.co/d/0hgY90mK" target="_blank" rel="noopener">
             View on Amazon
-          </a>
-        </div>
-      </div>
-
-      <div class="book-card">
-        <img src="{{ '/assets/img/book2.png' | relative_url }}" alt="The Waiting Rooms of My Life cover image">
-
-        <h3>The Waiting Rooms of My Life</h3>
-
-        <p>
-          A memoir in progress about caregiving, medical systems, and invisible labor.
-        </p>
-
-        <div style="margin-top:18px">
-          <a class="btn btn-ghost" href="{{ '/memoir/' | relative_url }}">
-            Read Excerpts
           </a>
         </div>
       </div>
