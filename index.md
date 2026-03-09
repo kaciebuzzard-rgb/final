@@ -124,93 +124,69 @@ permalink: /
 </section>
 
 <!-- BOOKS -->
-
 <section id="books" class="books">
 
-<div class="wrap">
+  <div class="wrap">
 
-<div class="section-head">
-<h2>Books</h2>
-</div>
+    <div class="section-head">
+      <h2>Books</h2>
+    </div>
 
-<div class="books-grid">
+    <div class="books-grid">
 
+      <div class="book-card">
+        <img src="{{ '/assets/img/love-of-autism.jpg' | relative_url }}" alt="For the Love of Autism book cover">
 
-<!-- BOOK 1 -->
+        <h3>For the Love of Autism</h3>
 
-<div class="book-card">
+        <p>
+          A collaborative resource centered on autism advocacy,
+          community, and lived experience.
+        </p>
 
-<img src="{{ '/assets/img/love-of-autism.jpg' | relative_url }}" alt="For the Love of Autism book cover">
+        <div style="margin-top:18px">
+          <a class="btn" href="PASTE-AMAZON-LINK-HERE" target="_blank" rel="noopener">
+            View on Amazon
+          </a>
+        </div>
+      </div>
 
-<h3>For the Love of Autism</h3>
+      <div class="book-card">
+        <img src="{{ '/assets/img/neurodiversity-workbook.jpg' | relative_url }}" alt="Neurodiversity Workbook for Parents book cover">
 
-<p>
-A collaborative resource centered on autism advocacy,
-community, and lived experience.
-</p>
+        <h3>Neurodiversity Workbook for Parents</h3>
 
-<div style="margin-top:18px">
+        <p>
+          A practical workbook designed to help families navigate
+          neurodiversity with confidence and support.
+        </p>
 
-<a class="btn" href="https://www.amazon.com/" target="_blank">
-View on Amazon
-</a>
+        <div style="margin-top:18px">
+          <a class="btn" href="PASTE-AMAZON-LINK-HERE" target="_blank" rel="noopener">
+            View on Amazon
+          </a>
+        </div>
+      </div>
 
-</div>
+      <div class="book-card">
+        <img src="{{ '/assets/img/waiting-rooms.jpg' | relative_url }}" alt="The Waiting Rooms of My Life cover image">
 
-</div>
+        <h3>The Waiting Rooms of My Life</h3>
 
+        <p>
+          A memoir in progress about caregiving, medical systems, and invisible labor.
+        </p>
 
-<!-- BOOK 2 -->
+        <div style="margin-top:18px">
+          <a class="btn btn-ghost" href="{{ '/memoir/' | relative_url }}">
+            Read Excerpts
+          </a>
+        </div>
+      </div>
 
-<div class="book-card">
+    </div>
 
-<img src="{{ '/assets/img/neurodiversity-workbook.jpg' | relative_url }}" alt="Neurodiversity Workbook for Parents">
-
-<h3>Neurodiversity Workbook for Parents</h3>
-
-<p>
-A practical workbook designed to help families navigate
-neurodiversity with confidence and support.
-</p>
-
-<div style="margin-top:18px">
-
-<a class="btn" href="https://www.amazon.com/" target="_blank">
-View on Amazon
-</a>
-
-</div>
-
-</div>
-
-
-<!-- BOOK 3 -->
-
-<div class="book-card">
-
-<img src="{{ '/assets/img/waiting-rooms.jpg' | relative_url }}" alt="The Waiting Rooms of My Life">
-
-<h3>The Waiting Rooms of My Life</h3>
-
-<p>
-A memoir in progress about caregiving,
-medical systems, and invisible labor.
-</p>
-
-<div style="margin-top:18px">
-
-<a class="btn btn-ghost" href="{{ '/memoir/' | relative_url }}">
-Read Excerpts
-</a>
-
-</div>
-
-</div>
-
-
-</div>
-
-</div>
+  </div>
 
 </section>
 
