@@ -6,11 +6,9 @@ permalink: /
 
 <!-- HERO -->
 <section class="hero">
-
   <div class="hero-overlay"></div>
 
   <div class="wrap hero-inner">
-
     <p class="hero-kicker">
       Speaker • Writer • Communications Strategist
     </p>
@@ -31,14 +29,11 @@ permalink: /
         Learn More
       </a>
     </div>
-
   </div>
-
 </section>
 
 <!-- TOPICS -->
 <section class="topics">
-
   <div class="wrap topics-inner">
     <span>Disability Advocacy</span>
     <span>Caregiving Systems</span>
@@ -47,20 +42,16 @@ permalink: /
     <span>Medical Motherhood</span>
     <span>Systems Change</span>
   </div>
-
 </section>
 
 <!-- ABOUT -->
 <section id="about" class="about-section">
-
   <div class="wrap about-grid">
-
     <div class="about-image">
       <img src="{{ '/assets/img/about-kacie.jpg' | relative_url }}" alt="Kacie Wielgus Buzzard">
     </div>
 
     <div class="about-text">
-
       <h2>About Kacie</h2>
 
       <p>
@@ -92,54 +83,56 @@ permalink: /
         Kacie is currently developing a memoir,
         <strong>The Waiting Rooms of My Life</strong>.
       </p>
-
     </div>
-
   </div>
-
 </section>
 
 <!-- SERVICES -->
 <section id="services" class="services">
-
   <div class="wrap">
-
     <div class="section-head">
       <h2>Services</h2>
+      <p>
+        Speaking, strategy, and writing rooted in lived experience,
+        systems thinking, and inclusive communication.
+      </p>
     </div>
 
     <div class="books-grid">
+      <article class="book-card">
+        <div class="book-content">
+          <h3>Keynote Speaking</h3>
+          <p>
+            Talks focused on disability advocacy, caregiving systems,
+            invisible labor, and systems change.
+          </p>
+        </div>
+      </article>
 
-      <div class="book-card">
-        <h3>Keynote Speaking</h3>
-        <p>
-          Talks focused on disability advocacy, caregiving systems,
-          invisible labor, and systems change.
-        </p>
-      </div>
+      <article class="book-card">
+        <div class="book-content">
+          <h3>Strategic Communications</h3>
+          <p>
+            Messaging, narrative strategy, and content development
+            for complex issues and mission-driven organizations.
+          </p>
+        </div>
+      </article>
 
-      <div class="book-card">
-        <h3>Strategic Communications</h3>
-        <p>
-          Messaging, narrative strategy, and content development
-          for complex issues and mission-driven organizations.
-        </p>
-      </div>
-
-      <div class="book-card">
-        <h3>Writing</h3>
-        <p>
-          Essays, reflections, and long-form storytelling connecting
-          lived experience to institutional change.
-        </p>
-      </div>
-
+      <article class="book-card">
+        <div class="book-content">
+          <h3>Writing</h3>
+          <p>
+            Essays, reflections, and long-form storytelling connecting
+            lived experience to institutional change.
+          </p>
+        </div>
+      </article>
     </div>
-
   </div>
-
 </section>
 
+<!-- BOOKS -->
 <section id="books" class="books-section">
   <div class="wrap">
     <div class="section-heading">
@@ -159,6 +152,7 @@ permalink: /
             alt="Cover of the Neurodiversity Workbook for Parents"
             class="book-image">
         </div>
+
         <div class="book-content">
           <h3>Neurodiversity Workbook for Parents</h3>
           <p class="book-subtitle">
@@ -170,8 +164,13 @@ permalink: /
             document priorities, and move through complex systems with greater
             clarity and confidence.
           </p>
+
           <div class="book-actions">
-            <a href="/assets/pdf/neurodiversity-workbook.pdf" class="btn btn-secondary" target="_blank" rel="noopener">
+            <a
+              href="{{ '/assets/pdf/neurodiversity-workbook.pdf' | relative_url }}"
+              class="btn"
+              target="_blank"
+              rel="noopener">
               Preview
             </a>
           </div>
@@ -185,6 +184,7 @@ permalink: /
             alt="Cover of For the Love of Autism"
             class="book-image">
         </div>
+
         <div class="book-content">
           <h3>For the Love of Autism</h3>
           <p class="book-subtitle">
@@ -195,8 +195,9 @@ permalink: /
             This work reflects the realities, resilience, and deep love that
             shape family life inside disability and caregiving systems.
           </p>
+
           <div class="book-actions">
-            <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">
+            <a href="mailto:kacie.buzzard@gmail.com" class="btn">
               Ask About This Book
             </a>
           </div>
@@ -208,40 +209,42 @@ permalink: /
 
 <!-- WRITING -->
 <section id="writing" class="writing-section">
-
   <div class="wrap">
-
     <div class="section-head">
       <h2>Writing</h2>
       <p>Selected themes and excerpts from Kacie’s essays and memoir-in-progress.</p>
     </div>
 
     <div class="books-grid">
-
       <article class="book-card">
-        <h3>The Chair</h3>
-        <p>
-          A reflection on the seat reserved for the person who stays —
-          and what it means to endure inside hospital rooms.
-        </p>
+        <div class="book-content">
+          <h3>The Chair</h3>
+          <p>
+            A reflection on the seat reserved for the person who stays —
+            and what it means to endure inside hospital rooms.
+          </p>
+        </div>
       </article>
 
       <article class="book-card">
-        <h3>The Hospital Hallway Where Time Collapses</h3>
-        <p>
-          On how medical spaces distort time, memory,
-          and the emotional architecture of caregiving.
-        </p>
+        <div class="book-content">
+          <h3>The Hospital Hallway Where Time Collapses</h3>
+          <p>
+            On how medical spaces distort time, memory,
+            and the emotional architecture of caregiving.
+          </p>
+        </div>
       </article>
 
       <article class="book-card">
-        <h3>The Invisible Tax of Invisible Labor</h3>
-        <p>
-          A meditation on the operational burden families carry across
-          healthcare, education, and disability systems.
-        </p>
+        <div class="book-content">
+          <h3>The Invisible Tax of Invisible Labor</h3>
+          <p>
+            A meditation on the operational burden families carry across
+            healthcare, education, and disability systems.
+          </p>
+        </div>
       </article>
-
     </div>
 
     <div style="text-align:center; margin-top:32px;">
@@ -249,22 +252,17 @@ permalink: /
         Explore The Waiting Rooms of My Life
       </a>
     </div>
-
   </div>
-
 </section>
 
 <!-- SPEAKING -->
-<section id="speaking" class="books">
-
+<section id="speaking" class="about-section">
   <div class="wrap about-grid">
-
     <div class="about-image">
       <img src="{{ '/assets/img/kacie-speaks.png' | relative_url }}" alt="Kacie Wielgus Buzzard speaking">
     </div>
 
     <div class="about-text">
-
       <h2>Speaking</h2>
 
       <p>
@@ -283,23 +281,28 @@ permalink: /
         needed to make them more humane and workable.
       </p>
 
+      <div class="speaking-topics">
+        <h3>Sample Topics</h3>
+        <ul>
+          <li>Caregiving as Systems Work</li>
+          <li>The Invisible Labor Families Carry</li>
+          <li>Disability Advocacy and Institutional Change</li>
+          <li>Storytelling as a Tool for Systems Change</li>
+        </ul>
+      </div>
+
       <div style="margin-top:28px">
         <a class="btn" href="mailto:kacie.buzzard@gmail.com">
           Book a Speaking Engagement
         </a>
       </div>
-
     </div>
-
   </div>
-
 </section>
 
 <!-- CONTACT -->
 <section id="contact" class="contact-section">
-
   <div class="wrap">
-
     <div class="section-head">
       <h2>Contact</h2>
       <p>
@@ -308,7 +311,6 @@ permalink: /
     </div>
 
     <div class="about-text" style="max-width:760px; margin:0 auto; text-align:center;">
-
       <p>
         Email:
         <a href="mailto:kacie.buzzard@gmail.com">kacie.buzzard@gmail.com</a>
@@ -319,9 +321,6 @@ permalink: /
           Email Kacie
         </a>
       </div>
-
     </div>
-
   </div>
-
 </section>
