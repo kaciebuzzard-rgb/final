@@ -141,7 +141,7 @@ permalink: /
     <div class="books-grid">
 
       <div class="book-card">
-        <img src="{{ '/assets/img/love-of-autism.jpg' | relative_url }}" alt="For the Love of Autism book cover">
+        <img src="{{ '/assets/img/for-the-love-of-autism.png' | relative_url }}" alt="For the Love of Autism book cover">
 
         <h3>For the Love of Autism</h3>
 
@@ -158,7 +158,7 @@ permalink: /
       </div>
 
       <div class="book-card">
-        <img src="{{ '/assets/img/neurodiversity-workbook.jpg' | relative_url }}" alt="Neurodiversity Workbook for Parents book cover">
+        <img src="{{ '/assets/img/neurodiversity-workbook-for-parents.webp' | relative_url }}" alt="Neurodiversity Workbook for Parents book cover">
 
         <h3>Neurodiversity Workbook for Parents</h3>
 
@@ -175,7 +175,7 @@ permalink: /
       </div>
 
       <div class="book-card">
-        <img src="{{ '/assets/img/waiting-rooms.jpg' | relative_url }}" alt="The Waiting Rooms of My Life cover image">
+        <img src="{{ '/assets/img/book2.png' | relative_url }}" alt="The Waiting Rooms of My Life cover image">
 
         <h3>The Waiting Rooms of My Life</h3>
 
