@@ -124,45 +124,96 @@ permalink: /
 </section>
 
 <!-- BOOKS -->
+
 <section id="books" class="books">
 
-  <div class="wrap">
+<div class="wrap">
 
-    <div class="section-head">
-      <h2>Books</h2>
-    </div>
+<div class="section-head">
+<h2>Books</h2>
+</div>
 
-    <div class="books-grid">
+<div class="books-grid">
 
-      <div class="book-card">
-        <h3>For the Love of Autism</h3>
-        <p>
-          A collaborative resource centered on autism, advocacy, and the lived experiences of families and caregivers.
-        </p>
-      </div>
 
-      <div class="book-card">
-        <h3>Neurodiversity Workbook for Parents</h3>
-        <p>
-          A practical, supportive workbook designed to help parents navigate neurodiversity with clarity and confidence.
-        </p>
-      </div>
+<!-- BOOK 1 -->
 
-      <div class="book-card">
-        <h3>The Waiting Rooms of My Life</h3>
-        <p>
-          A memoir in progress about caregiving, medical systems, invisible labor, and the endurance families carry.
-        </p>
-        <p style="margin-top:18px;">
-          <a class="btn btn-ghost" href="{{ '/memoir/' | relative_url }}">Read Memoir Excerpts</a>
-        </p>
-      </div>
+<div class="book-card">
 
-    </div>
+<img src="{{ '/assets/img/love-of-autism.jpg' | relative_url }}" alt="For the Love of Autism book cover">
 
-  </div>
+<h3>For the Love of Autism</h3>
+
+<p>
+A collaborative resource centered on autism advocacy,
+community, and lived experience.
+</p>
+
+<div style="margin-top:18px">
+
+<a class="btn" href="https://www.amazon.com/" target="_blank">
+View on Amazon
+</a>
+
+</div>
+
+</div>
+
+
+<!-- BOOK 2 -->
+
+<div class="book-card">
+
+<img src="{{ '/assets/img/neurodiversity-workbook.jpg' | relative_url }}" alt="Neurodiversity Workbook for Parents">
+
+<h3>Neurodiversity Workbook for Parents</h3>
+
+<p>
+A practical workbook designed to help families navigate
+neurodiversity with confidence and support.
+</p>
+
+<div style="margin-top:18px">
+
+<a class="btn" href="https://www.amazon.com/" target="_blank">
+View on Amazon
+</a>
+
+</div>
+
+</div>
+
+
+<!-- BOOK 3 -->
+
+<div class="book-card">
+
+<img src="{{ '/assets/img/waiting-rooms.jpg' | relative_url }}" alt="The Waiting Rooms of My Life">
+
+<h3>The Waiting Rooms of My Life</h3>
+
+<p>
+A memoir in progress about caregiving,
+medical systems, and invisible labor.
+</p>
+
+<div style="margin-top:18px">
+
+<a class="btn btn-ghost" href="{{ '/memoir/' | relative_url }}">
+Read Excerpts
+</a>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
 
 </section>
+
 
 <!-- WRITING -->
 <section id="writing" class="writing-section">
