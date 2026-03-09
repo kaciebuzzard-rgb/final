@@ -276,57 +276,75 @@ SECTION HEAD
 /* =========================================================
 CARDS / GRID SECTIONS
 ========================================================= */
+<!-- BOOKS -->
+<section id="books" class="books">
 
-.books,
-.writing-section{
-  padding:100px 0;
-}
+  <div class="wrap">
 
-.books-grid{
-  display:grid;
-  grid-template-columns:repeat(3, 1fr);
-  gap:32px;
-  align-items:stretch;
-}
+    <div class="section-head">
+      <h2>Books</h2>
+    </div>
 
-.book-card{
-  background:#ffffff;
-  border-radius:12px;
-  padding:26px;
-  box-shadow:0 14px 30px rgba(0,0,0,.06);
-  height:100%;
-  display:flex;
-  flex-direction:column;
-}
+    <div class="books-grid">
 
-.book-card img{
-  width:100%;
-  height:260px;
-  object-fit:cover;
-  border-radius:10px;
-  margin-bottom:16px;
-}
+      <div class="book-card">
+        <img src="{{ '/assets/img/for-the-love-of-autism.png' | relative_url }}" alt="For the Love of Autism book cover" loading="lazy">
 
-.book-card h3{
-  font-size:22px;
-  margin-bottom:12px;
-  line-height:1.3;
-}
+        <h3>For the Love of Autism</h3>
 
-.book-card p{
-  font-size:17px;
-  line-height:1.7;
-  color:#3a342f;
-  margin-bottom:14px;
-}
+        <p>
+          A collaborative resource centered on autism advocacy,
+          community, and lived experience.
+        </p>
 
-.book-card p:last-child{
-  margin-bottom:0;
-}
+        <div style="margin-top:18px">
+          <a class="btn" href="https://a.co/d/09hbEPCJ" target="_blank" rel="noopener">
+            View on Amazon
+          </a>
+        </div>
+      </div>
 
-.book-card > div:last-child{
-  margin-top:auto;
-}
+
+      <div class="book-card">
+        <img src="{{ '/assets/img/neurodiversity-workbook-book.png' | relative_url }}" alt="Neurodiversity Workbook for Parents book cover" loading="lazy">
+
+        <h3>Neurodiversity Workbook for Parents</h3>
+
+        <p>
+          A practical workbook designed to help families navigate
+          neurodiversity with confidence and support.
+        </p>
+
+        <div style="margin-top:18px">
+          <a class="btn" href="https://a.co/d/0hgY90mK" target="_blank" rel="noopener">
+            View on Amazon
+          </a>
+        </div>
+      </div>
+
+
+      <div class="book-card">
+        <img src="{{ '/assets/img/invisible-tax.jpg' | relative_url }}" alt="The Waiting Rooms of My Life cover image" loading="lazy">
+
+        <h3>The Waiting Rooms of My Life</h3>
+
+        <p>
+          A memoir in progress about caregiving, medical systems,
+          and the invisible labor families carry.
+        </p>
+
+        <div style="margin-top:18px">
+          <a class="btn btn-ghost" href="{{ '/memoir/' | relative_url }}">
+            Read Excerpts
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
 /* =========================================================
 SERVICES
