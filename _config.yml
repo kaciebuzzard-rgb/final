@@ -1,7 +1,3 @@
----
-layout: default
-title: Home
----
 title: "Kacie Wielgus (Buzzard)"
 description: "Speaker, writer, and strategist turning lived experience into systems change."
 url: "https://kacies.life"
@@ -38,5 +34,5 @@ social:
   links:
     - "https://medium.com/@kwbuzzard"
 
-lang: en_US
+lang: en-US
 timezone: America/New_York
