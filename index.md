@@ -27,7 +27,7 @@ permalink: /
         Book a Keynote
       </a>
 
-      <a class="btn btn-ghost" href="#about">
+      <a class="btn btn-ghost" href="{{ '/#about' | relative_url }}">
         Learn More
       </a>
     </div>
@@ -104,17 +104,23 @@ permalink: /
 
       <div class="book-card">
         <h3>Keynote Speaking</h3>
-        <p>Talks focused on disability advocacy, caregiving systems, invisible labor, and systems change.</p>
+        <p>
+          Talks focused on disability advocacy, caregiving systems, invisible labor, and systems change.
+        </p>
       </div>
 
       <div class="book-card">
         <h3>Strategic Communications</h3>
-        <p>Messaging, narrative strategy, and content development for complex issues and mission-driven organizations.</p>
+        <p>
+          Messaging, narrative strategy, and content development for complex issues and mission-driven organizations.
+        </p>
       </div>
 
       <div class="book-card">
         <h3>Writing</h3>
-        <p>Essays, reflections, and long-form storytelling connecting lived experience to institutional change.</p>
+        <p>
+          Essays, reflections, and long-form storytelling connecting lived experience to institutional change.
+        </p>
       </div>
 
     </div>
@@ -145,7 +151,7 @@ permalink: /
         </p>
 
         <div style="margin-top:18px">
-          <a class="btn" href="PASTE-AMAZON-LINK-HERE" target="_blank" rel="noopener">
+          <a class="btn" href="PASTE-AMAZON-LINK-FOR-FOR-THE-LOVE-OF-AUTISM" target="_blank" rel="noopener">
             View on Amazon
           </a>
         </div>
@@ -162,7 +168,7 @@ permalink: /
         </p>
 
         <div style="margin-top:18px">
-          <a class="btn" href="PASTE-AMAZON-LINK-HERE" target="_blank" rel="noopener">
+          <a class="btn" href="PASTE-AMAZON-LINK-FOR-NEURODIVERSITY-WORKBOOK" target="_blank" rel="noopener">
             View on Amazon
           </a>
         </div>
@@ -189,7 +195,6 @@ permalink: /
   </div>
 
 </section>
-
 
 <!-- WRITING -->
 <section id="writing" class="writing-section">
