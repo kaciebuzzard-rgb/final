@@ -378,16 +378,17 @@ SERVICES
 ========================================================= */
 
 .services{
-  padding:100px 0;
+  padding:120px 0;
   background:#faf7f4;
 }
 
-/* Hide image treatment in non-book card grids */
-.services .book-card img,
-.writing-section .book-card img{
-  display:none;
+.services .books-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:40px;
+  max-width:800px;
+  margin:0 auto;
 }
-
 /* =========================================================
 SPEAKING TOPICS
 ========================================================= */
