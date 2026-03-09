@@ -159,25 +159,7 @@ permalink: /
 
       <!-- BOOK 2 -->
       <div class="book-card">
-        <img src="{{ '/assets/img/invisible-tax.jpg' | relative_url }}" alt="The Waiting Rooms of My Life memoir" loading="lazy">
-
-        <h3>The Waiting Rooms of My Life</h3>
-
-        <p>
-          A memoir in progress about caregiving, medical systems, and invisible labor.
-        </p>
-
-        <div style="margin-top:18px">
-          <a class="btn btn-ghost" href="{{ '/memoir/' | relative_url }}">
-            Read Excerpts
-          </a>
-        </div>
-      </div>
-
-
-      <!-- BOOK 3 -->
-      <div class="book-card">
-        <img src="{{ '/assets/img/neurodiversity-workbook-for-parents.webp' | relative_url }}" alt="Neurodiversity Workbook for Parents book cover" loading="lazy">
+        <img src="{{ '/assets/img/neurodiversity-workbook-book.png' | relative_url }}" alt="Neurodiversity Workbook for Parents" loading="lazy">
 
         <h3>Neurodiversity Workbook for Parents</h3>
 
@@ -189,6 +171,25 @@ permalink: /
         <div style="margin-top:18px">
           <a class="btn" href="https://a.co/d/0hgY90mK" target="_blank" rel="noopener">
             View on Amazon
+          </a>
+        </div>
+      </div>
+
+
+      <!-- BOOK 3 -->
+      <div class="book-card">
+        <img src="{{ '/assets/img/invisible-tax.jpg' | relative_url }}" alt="The Waiting Rooms of My Life memoir" loading="lazy">
+
+        <h3>The Waiting Rooms of My Life</h3>
+
+        <p>
+          A memoir in progress exploring caregiving systems,
+          invisible labor, and the endurance families carry.
+        </p>
+
+        <div style="margin-top:18px">
+          <a class="btn btn-ghost" href="{{ '/memoir/' | relative_url }}">
+            Read Excerpts
           </a>
         </div>
       </div>
