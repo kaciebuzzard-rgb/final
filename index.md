@@ -271,6 +271,34 @@ permalink: /
         needed to make them more humane and workable.
       </p>
 
+      <section class="featured-video">
+  <div class="wrap">
+    <div class="featured-video-grid">
+      
+      <div class="featured-video-copy">
+        <p class="section-eyebrow">Featured Video</p>
+        <h2>Caregiving, Disability Advocacy, and Systems Thinking</h2>
+        <p>
+          A short talk on caregiving, invisible labor, and what families learn
+          when they are forced to navigate systems that were never designed with them in mind.
+        </p>
+        <p>
+          This reflection explores how caregivers become coordinators, historians,
+          and translators between institutions that rarely speak to each other.
+        </p>
+      </div>
+
+      <div class="featured-video-frame">
+        <video controls playsinline preload="metadata" poster="{{ '/assets/img/ig-reel-cover.png' | relative_url }}">
+          <source src="{{ '/assets/video/caregiving-systems-thinking.mp4' | relative_url }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+    </div>
+  </div>
+</section>
+
       <div class="speaking-topics">
         <h3>Sample Topics</h3>
         <ul>
