@@ -1,90 +1,340 @@
-<!doctype html>
-<html lang="en">
+---
+layout: default
+title: Home
+permalink: /
+---
 
-<head>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-overlay"></div>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <div class="wrap hero-inner">
+    <p class="hero-kicker">
+      Speaker • Writer • Communications Strategist
+    </p>
 
-<title>{{ page.title }} | {{ site.title }}</title>
+    <h1>Where Lived Experience Shapes Systems Change</h1>
 
-<meta name="description" content="{{ site.description }}">
+    <p class="hero-sub">
+      Speaker, writer, and communications strategist exploring disability advocacy,
+      caregiving systems, and the invisible labor families carry inside complex institutions.
+    </p>
 
-{% seo %}
+    <div class="hero-buttons">
+      <a class="btn" href="mailto:kacie.buzzard@gmail.com">
+        Book a Speaking Engagement
+      </a>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MSRQG1KLCQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      <a class="btn btn-ghost" href="{{ '/#about' | relative_url }}">
+        Explore the Work
+      </a>
+    </div>
+  </div>
+</section>
 
-  gtag('config', 'G-MSRQG1KLCQ');
-</script>
+<!-- TOPICS -->
+<section class="topics">
+  <div class="wrap topics-inner">
+    <span>Disability Advocacy</span>
+    <span>Caregiving Systems</span>
+    <span>Invisible Labor</span>
+    <span>Inclusive Communications</span>
+    <span>Medical Motherhood</span>
+    <span>Systems Change</span>
+  </div>
+</section>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- ABOUT -->
+<section id="about" class="about-section">
+  <div class="wrap about-grid">
+    <div class="about-image">
+      <img src="{{ '/assets/img/about-kacie.jpg' | relative_url }}" alt="Kacie Wielgus Buzzard">
+    </div>
 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <div class="about-text">
+      <h2>About Kacie</h2>
 
-<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+      <p>
+        Kacie Wielgus (Buzzard) is a communications strategist, writer, and speaker
+        focused on the intersection of disability advocacy, caregiving systems,
+        and storytelling.
+      </p>
 
-<link rel="icon" href="{{ '/assets/img/favicon.png' | relative_url}}">
+      <p>
+        Her work explores the invisible labor families carry inside healthcare,
+        education, and disability systems — and the structural changes needed to
+        support them.
+      </p>
 
-</head>
+      <p>
+        Drawing on years spent navigating medical, educational, and disability systems
+        as a parent and advocate, her work connects the deeply personal with the
+        structural realities families encounter every day. She writes and speaks
+        about the endurance required to move through these systems — and the
+        possibility of building ones that work better for everyone.
+      </p>
 
-<body id="top">
+      <p>
+        Her writing has appeared in outlets including <em>The Mighty</em>,
+        <em>Kveller</em>, and Medium, where she writes about caregiving,
+        disability advocacy, and the systems families navigate every day.
+      </p>
 
-<header class="site-header">
+      <p>
+        Kacie is currently developing a memoir,
+        <strong>The Waiting Rooms of My Life</strong>.
+      </p>
+    </div>
+  </div>
+</section>
 
-<div class="wrap site-nav">
+<!-- SERVICES -->
+<section id="services" class="services">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Services</h2>
+    </div>
 
-<a class="nav-logo" href="{{ '/' | relative_url }}">
-Kacie Wielgus (Buzzard)
-</a>
+    <div class="books-grid">
+      <div class="book-card">
+        <h3>Keynote Speaking</h3>
+        <p>
+          Talks focused on disability advocacy, caregiving systems,
+          invisible labor, and systems change.
+        </p>
+      </div>
 
-<nav class="nav-links" aria-label="Primary navigation">
+      <div class="book-card">
+        <h3>Strategic Communications</h3>
+        <p>
+          Messaging, narrative strategy, and content development
+          for complex issues and mission-driven organizations.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-<a href="{{ '/#about' | relative_url }}">About</a>
+<!-- BOOKS -->
+<section id="books" class="books-section">
+  <div class="wrap">
+    <div class="section-heading">
+      <p class="section-kicker">Books</p>
+      <h2>Books & Guided Resources</h2>
+      <p class="section-intro">
+        Books and guided resources rooted in neurodiversity, caregiving advocacy,
+        and the lived experiences that shape systems change.
+      </p>
+    </div>
 
-<a href="{{ '/#services' | relative_url }}">Services</a>
+    <div class="books-grid">
+      <article class="book-card">
+        <div class="book-image-wrap">
+          <img
+            src="{{ '/assets/img/neurodiversity-workbook.png' | relative_url }}"
+            alt="Cover of the Neurodiversity Workbook for Parents"
+            class="book-image">
+        </div>
 
-<a href="{{ '/#books' | relative_url }}">Books</a>
+        <div class="book-content">
+          <h3>Neurodiversity Workbook for Parents</h3>
+          <p class="book-subtitle">
+            A practical guided resource for parents navigating advocacy,
+            education, and support systems.
+          </p>
+          <p>
+            This workbook is designed to help families organize their thinking,
+            document priorities, and move through complex systems with greater
+            clarity and confidence.
+          </p>
 
-<a href="{{ '/#writing' | relative_url }}">Writing</a>
+          <div class="book-actions">
+            <a
+              href="https://a.co/d/0fAxUBJb"
+              class="btn"
+              target="_blank"
+              rel="noopener">
+              Purchase on Amazon
+            </a>
+          </div>
+        </div>
+      </article>
 
-<a href="{{ '/memoir/' | relative_url }}">The Waiting Rooms of My Life</a>
+      <article class="book-card">
+        <div class="book-image-wrap">
+          <img
+            src="{{ '/assets/img/for-the-love-of-autism.png' | relative_url }}"
+            alt="Cover of For the Love of Autism"
+            class="book-image">
+        </div>
 
-<a href="{{ '/#speaking' | relative_url }}">Speaking</a>
+        <div class="book-content">
+          <h3>For the Love of Autism</h3>
+          <p class="book-subtitle">
+            A collaborative project rooted in advocacy, lived experience, and
+            storytelling for families raising autistic children.
+          </p>
+          <p>
+            This work reflects the realities, resilience, and deep love that
+            shape family life inside disability and caregiving systems.
+          </p>
 
-<a href="{{ '/#contact' | relative_url }}">Contact</a>
+          <div class="book-actions">
+            <a
+              href="https://a.co/d/0bn3UkR8"
+              class="btn"
+              target="_blank"
+              rel="noopener">
+              Purchase on Amazon
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
 
-<a href="https://medium.com/@kwbuzzard" target="_blank" rel="noopener">
-Medium
-</a>
+<!-- WRITING -->
+<section id="writing" class="writing-section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Writing</h2>
+      <p>Selected themes and excerpts from Kacie’s essays and memoir-in-progress.</p>
+    </div>
 
-</nav>
+    <div class="books-grid">
+      <article class="book-card">
+        <div class="book-content">
+          <h3>The Chair</h3>
+          <p>
+            A reflection on the seat reserved for the person who stays —
+            and what it means to endure inside hospital rooms.
+          </p>
+        </div>
+      </article>
 
-</div>
+      <article class="book-card">
+        <div class="book-content">
+          <h3>The Hospital Hallway Where Time Collapses</h3>
+          <p>
+            On how medical spaces distort time, memory,
+            and the emotional architecture of caregiving.
+          </p>
+        </div>
+      </article>
 
-</header>
+      <article class="book-card">
+        <div class="book-content">
+          <h3>The Invisible Tax of Invisible Labor</h3>
+          <p>
+            A meditation on the operational burden families carry across
+            healthcare, education, and disability systems.
+          </p>
+        </div>
+      </article>
+    </div>
 
+    <div style="text-align:center; margin-top:32px;">
+      <a class="btn" href="{{ '/memoir/' | relative_url }}">
+        Explore The Waiting Rooms of My Life
+      </a>
+    </div>
+  </div>
+</section>
 
-<main class="site-main">
+<!-- SPEAKING -->
+<section id="speaking" class="about-section">
+  <div class="wrap about-grid">
+    <div class="about-image">
+      <img src="{{ '/assets/img/kacie-speaks.png' | relative_url }}" alt="Kacie Wielgus Buzzard speaking">
+    </div>
 
-{{ content }}
+    <div class="about-text">
+      <h2>Speaking</h2>
 
-</main>
+      <p>
+        Kacie speaks on disability advocacy, caregiving systems,
+        invisible labor, and storytelling.
+      </p>
 
+      <p>
+        Her perspective blends communications expertise with lived
+        experience navigating complex systems as a caregiver.
+      </p>
 
-<footer class="site-footer">
+      <p>
+        She speaks to the human realities inside healthcare,
+        education, and disability systems — and the changes
+        needed to make them more humane and workable.
+      </p>
 
-<div class="wrap footer-inner">
+      <div class="speaking-topics">
+        <h3>Sample Topics</h3>
+        <ul>
+          <li>Caregiving as Systems Work</li>
+          <li>The Invisible Labor Families Carry</li>
+          <li>Disability Advocacy and Institutional Change</li>
+          <li>Storytelling as a Tool for Systems Change</li>
+        </ul>
+      </div>
 
-<p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
+      <div style="margin-top:28px">
+        <a class="btn" href="mailto:kacie.buzzard@gmail.com">
+          Book a Speaking Engagement
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
-</div>
-</footer>
+<!-- FEATURED VIDEO -->
+<section class="featured-video">
+  <div class="wrap">
+    <div class="featured-video-grid">
+      <div class="featured-video-copy">
+        <p class="section-eyebrow">Featured Video</p>
+        <h2>When Families Become the System</h2>
+        <p>
+          A short talk on caregiving, invisible labor, and what families learn
+          when they are forced to navigate systems that were never designed for them.
+        </p>
+        <p>
+          This reflection explores how caregivers become coordinators, historians,
+          and translators between institutions that rarely speak to each other.
+        </p>
+      </div>
 
-</body>
-</html>
+      <div class="featured-video-frame">
+        <video controls playsinline preload="metadata" poster="{{ '/assets/img/ig-reel-cover.png' | relative_url }}">
+          <source src="{{ '/assets/video/caregiving-systems-thinking.mp4' | relative_url }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Contact</h2>
+      <p>
+        For speaking, writing, or collaboration inquiries, please get in touch.
+      </p>
+    </div>
+
+    <div class="about-text" style="max-width:760px; margin:0 auto; text-align:center;">
+      <p>
+        Email:
+        <a href="mailto:kacie.buzzard@gmail.com">kacie.buzzard@gmail.com</a>
+      </p>
+
+      <div style="margin-top:28px">
+        <a class="btn" href="mailto:kacie.buzzard@gmail.com">
+          Email Kacie
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
