@@ -89,6 +89,10 @@ HEADER
   font-weight:600;
 }
 
+/* =========================================================
+HERO
+========================================================= */
+
 .hero{
   position:relative;
   min-height:92vh;
@@ -123,6 +127,32 @@ HEADER
   z-index:2;
   max-width:720px;
   padding-top:120px;
+}
+
+.hero-kicker{
+  font-size:.9rem;
+  text-transform:uppercase;
+  letter-spacing:.15em;
+  font-weight:700;
+  margin-bottom:18px;
+}
+
+.hero h1{
+  font-size:clamp(2.6rem,5vw,4.8rem);
+  line-height:1.05;
+  font-weight:800;
+  margin-bottom:22px;
+}
+
+.hero-sub{
+  font-size:1.15rem;
+  margin-bottom:34px;
+  color:#f3f3f3;
+}
+
+.hero-buttons{
+  display:flex;
+  gap:14px;
 }
 
 /* =========================================================
@@ -307,36 +337,36 @@ RESPONSIVE
 
 @media (max-width:1000px){
 
-.about-grid{
-  grid-template-columns:1fr;
-}
+  .about-grid{
+    grid-template-columns:1fr;
+  }
 
-.featured-video-grid{
-  grid-template-columns:1fr;
-}
+  .featured-video-grid{
+    grid-template-columns:1fr;
+  }
 
-.writing-section .books-grid{
-  grid-template-columns:1fr;
-}
+  .writing-section .books-grid{
+    grid-template-columns:1fr;
+  }
 
 }
 
 @media (max-width:700px){
 
-.hero-buttons{
-  flex-direction:column;
-}
+  .hero-buttons{
+    flex-direction:column;
+  }
 
-.btn{
-  width:100%;
-}
+  .btn{
+    width:100%;
+  }
 
-.books-grid{
-  grid-template-columns:1fr;
-}
+  .books-grid{
+    grid-template-columns:1fr;
+  }
 
-.wrap{
-  padding:0 20px;
-}
+  .wrap{
+    padding:0 20px;
+  }
 
 }
