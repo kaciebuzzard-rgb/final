@@ -11,6 +11,29 @@ description: Speaker, writer, and strategist exploring disability advocacy, care
   </div>
   <div class="hero-overlay"></div>
 
+  <div class="wrap hero-inner">
+    <p class="hero-kicker">
+      Speaker • Writer • Communications Strategist
+    </p>
+
+    <h1>Where Lived Experience Shapes Systems Change</h1>
+
+    <p class="hero-sub">
+      Speaker, writer, and communications strategist exploring disability advocacy,
+      caregiving systems, and the invisible labor families carry inside complex institutions.
+    </p>
+
+    <div class="hero-buttons">
+      <a class="btn" href="mailto:kacie.buzzard@gmail.com">
+        Book a Speaking Engagement
+      </a>
+
+      <a class="btn btn-ghost" href="{{ '/#about' | relative_url }}">
+        Explore the Work
+      </a>
+    </div>
+  </div>
+</section>
 <!-- TOPICS -->
 <section class="topics">
   <div class="wrap topics-inner">
