@@ -3,18 +3,6 @@ layout: default
 title: Home
 permalink: /
 ---
-<head>
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-
-<meta name="description" content="{{ page.description | default: site.description }}">
-
-<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-
-</head>
 
 <!-- HERO -->
 <section class="hero">
