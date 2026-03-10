@@ -4,11 +4,11 @@ title: Home
 permalink: /
 description: Speaker, writer, and strategist exploring disability advocacy, caregiving systems, and the invisible labor families carry navigating healthcare and education systems.
 ---
-
 <section class="hero">
   <div class="hero-bg">
-    <img src="{{ '/assets/img/hero-kacie.jpg' | relative_url }}" alt="Kacie Wielgus Buzzard">
+    <img src="{{ '/assets/img/hero.jpg' | relative_url }}" alt="Kacie Wielgus Buzzard">
   </div>
+
   <div class="hero-overlay"></div>
 
   <div class="wrap hero-inner">
@@ -34,6 +34,7 @@ description: Speaker, writer, and strategist exploring disability advocacy, care
     </div>
   </div>
 </section>
+
 <!-- TOPICS -->
 <section class="topics">
   <div class="wrap topics-inner">
